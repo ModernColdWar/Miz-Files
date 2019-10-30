@@ -58,7 +58,7 @@ local ssb = {} -- DONT REMOVE!!!
 --]]
 
 ssb.showEnabledMessage = true -- if set to true, the player will be told that the slot is enabled when switching to it
-ssb.controlNonAircraftSlots = false -- if true, only unique DCS Player ids will be allowed for the Commander / GCI / Observer Slots
+ssb.controlNonAircraftSlots = true -- if true, only unique DCS Player ids will be allowed for the Commander / GCI / Observer Slots
 
 
 -- New addon version 1.1 -- kicking of players.
@@ -101,22 +101,22 @@ ssb.prefixes = {
 -- This script will output them when a player changes slots so you can copy them out easily :)
 -- This will only take effect if: ssb.controlNonAircraftSlots = true
 ssb.commanderPlayerUCID = {
-  "Capt.Fdez",
-  "SkyRaider",
-  "Mobius",
-  "Stalk",
-  "Savage2",
-  "Rambo11",
-  "Slizzard",
-  "Terminator",
-  "Winston",
-  "logntree",
-  "Mobius",
-  "Flashheart",
-  "F14nker",
-  "DoomyDoom",
-  "Misu",
-  "Shaffy",
+  "9afc4637083feaf599e78b25b37adf25",
+  "053ec863e71f9b83f1dc3155a3563ee6",
+  "f47be7b9564d03e6d8a75313efeba92a",
+  "64cb0b85fffe51c3e79ecd8f13766ded",
+  "0f8240487915af76a6f44a41c01cde47",
+  "182fb65bdbbdf9566d7cefeaab8c3c25",
+  "7d5c7a1b8bf4e5bee87cf9fd20d3a90c",
+  "e2b6cc3261d5513faaaffe8a7c157a32",
+  "a0d2bd3f8eea70563d49cae543f4ed8f",
+  "117bc9e9faafa19d71f099d650cf1b0c",
+  "ebb1471000e15b3ca240910d82342503",
+  "e711c21cecbfb91534afa41275027291",
+  "57c75549549a256464978b7a7deba4c8",
+  "9d70024558a2a3949c2ae9b8b9f79669",
+  "99bc992d15a8b9366c1af3873f53a895",
+  "e5d0f5316232e5802ced7cc4c86d2c95",
   "Airogue",
   "Lord Felix",
   "Wildcat 1-1",
