@@ -70,7 +70,7 @@ local desiredFuelFractions = {
 
 common.loadMission(missionLua)
 
-function setFuel(unit)
+function setFuel(unit, route)
   if unit.skill ~= "Client" then
     return
   end

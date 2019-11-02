@@ -23,7 +23,7 @@ function iterUnits(helicopterUnitCallback, airplaneUnitCallback)
         for _, helicopterGroups in pairs(country.helicopter) do
           for _, helicopterGroup in ipairs(helicopterGroups) do
             for _, helicopterUnit in ipairs(helicopterGroup.units) do
-              helicopterUnitCallback(helicopterUnit)
+              helicopterUnitCallback(helicopterUnit, helicopterGroup.route)
             end
           end
         end
@@ -32,7 +32,7 @@ function iterUnits(helicopterUnitCallback, airplaneUnitCallback)
         for _, airplaneGroups in pairs(country.plane) do
           for _, airplaneGroup in ipairs(airplaneGroups) do
             for _, airplaneUnit in ipairs(airplaneGroup.units) do
-              airplaneUnitCallback(airplaneUnit)
+              airplaneUnitCallback(airplaneUnit, airplaneGroup.route)
             end
           end
         end
@@ -40,6 +40,7 @@ function iterUnits(helicopterUnitCallback, airplaneUnitCallback)
     end
   end
 end
+
 
 M.iterUnits = iterUnits
 

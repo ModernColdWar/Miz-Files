@@ -13,7 +13,7 @@ common.loadMission(missionLua)
 
 local totalFuel = {}
 
-function recordTotalFuel(unit)
+function recordTotalFuel(unit, route)
   key = common.typeToKey(unit.type)
   totalFuel[key] = tonumber(unit.payload.fuel)
 end
