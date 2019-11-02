@@ -90,7 +90,8 @@ function setFuel(unit)
   end
 end
 
-common.iterUnits(setFuel)
+common.iterUnits(setFuel, setFuel)
+
 
 if write then
   -- Write file to disk

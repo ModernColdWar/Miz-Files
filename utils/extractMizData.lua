@@ -18,7 +18,7 @@ function recordTotalFuel(unit)
   totalFuel[key] = tonumber(unit.payload.fuel)
 end
 
-common.iterUnits(recordTotalFuel)
+common.iterUnits(recordTotalFuel, recordTotalFuel)
 
 local inspect = require("inspect")
 print("local fuelCapacities = " .. inspect(totalFuel))
