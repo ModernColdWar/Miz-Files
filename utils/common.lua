@@ -1,18 +1,17 @@
 local M = {}
 
-function loadMission(missionLuaPath)
-  print("Loading mission from " .. missionLuaPath)
-  dofile(missionLuaPath);
+function loadMission(missionDir)
+  print("Loading mission from " .. missionDir)
+  dofile(missionDir .. "\\mission");
+  dofile(missionDir .. "\\l10n\\DEFAULT\\dictionary")
   print("Mission loaded")
 end
-
 M.loadMission = loadMission
 
 
 function typeToKey(type)
   return string.gsub(type, "-", "_")
 end
-
 M.typeToKey = typeToKey
 
 
@@ -40,8 +39,11 @@ function iterUnits(helicopterUnitCallback, airplaneUnitCallback)
     end
   end
 end
-
-
 M.iterUnits = iterUnits
+
+function getName(unit)
+  return dictionary[unit.name]
+end
+M.getName = getName
 
 return M

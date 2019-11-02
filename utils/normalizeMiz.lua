@@ -10,7 +10,7 @@ local Serializer = require("Serializer")
 local inspect = require("inspect")
 local common = require("common")
 
-local missionLua = arg[1]
+local missionDir = arg[1]
 local write = #arg >= 2 and arg[2] == "--write"
 
 local fuelCapacities = {
@@ -69,7 +69,11 @@ local desiredFuelFractions = {
   UH_1H = 0.3,
 }
 
-common.loadMission(missionLua)
+common.loadMission(missionDir)
+
+function desc(unit)
+  return unit.type .. " \"" .. getName(unit) .. "\""
+end
 
 function setFuel(unit, route)
   if unit.skill ~= "Client" then
@@ -86,7 +90,7 @@ function setFuel(unit, route)
   desiredFuel = fuelCapacity * desiredFuelFraction
 
   if unit.payload.fuel ~= desiredFuel then
-    print("Setting fuel for " .. unit.type .. " named " .. unit.name .. " from " .. unit.payload.fuel .. " to " .. desiredFuel)
+    print("Setting fuel for " .. desc(unit) .. " from " .. unit.payload.fuel .. " to " .. desiredFuel)
     unit.payload.fuel = desiredFuel
   end
 end
@@ -101,7 +105,7 @@ function ensureGroundTakeoff(unit, route)
   
   for _, point in ipairs(route.points) do
     if point.action == "Turning Point" and point.type == "Turning Point" then
-      print("Setting take-off from ground for " .. unit.name .. " named " .. unit.name)
+      print("Setting take-off from ground for " .. desc(unit))
       point.action = "From Ground Area"
       point.type = "TakeOffGround"
     end
@@ -115,8 +119,8 @@ common.iterUnits(noOp, ensureGroundTakeoff)
 
 if write then
   -- Write file to disk
-  print("Updating mission at " .. missionLua)
-  outfile = io.open(missionLua, "w+")
+  print("Updating mission at " .. missionDir)
+  outfile = io.open(missionDir .. "\\mission", "w+")
 
   -- Uses ED's serializer to make sure it's compatible
   serializer = Serializer.new(outfile)

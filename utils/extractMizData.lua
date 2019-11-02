@@ -7,9 +7,9 @@ package.path = package.path .. ";" .. os.getenv("DCS_PATH") .. "\\Scripts\\?.lua
 local Serializer = require("Serializer")
 local common = require("common")
 
-local missionLua = arg[1]
+local missionDir = arg[1]
 
-common.loadMission(missionLua)
+common.loadMission(missionDir)
 
 local totalFuel = {}
 
