@@ -70,7 +70,7 @@ iterClientUnits(setFuel, noOp)
 
 if write then
   -- Write file to disk
-  print("Updatiing mission at " .. missionLua)
+  print("Updating mission at " .. missionLua)
   outfile = io.open(missionLua, "w+")
 
   -- Uses ED's serializer to make sure it's compatible
