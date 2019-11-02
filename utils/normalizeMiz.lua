@@ -6,67 +6,91 @@
 require("os")
 package.path = package.path .. ";" .. os.getenv("DCS_PATH") .. "\\Scripts\\?.lua"
 
-local Serializer = require("Serializer");
+local Serializer = require("Serializer")
+local common = require("common")
 
 local missionLua = arg[1]
 local write = #arg >= 2 and arg[2] == "--write"
 
-function iterClientUnits(heliCallback, airplaneCallback)
-  for _, coalition in pairs(mission.coalition) do
-    for _, country in ipairs(coalition.country) do
-      if country.helicopter ~= nil then -- Skip if no helicopters
-        for _, helicopterGroups in pairs(country.helicopter) do
-          for _, helicopterGroup in ipairs(helicopterGroups) do
-            for _, helicopterUnit in ipairs(helicopterGroup.units) do
-              if helicopterUnit.skill == "Client" then
-                heliCallback(helicopterUnit)
-              end
-            end
-          end
-        end
-      end
-      if country.plane ~= nil then -- Skip if no planes
-        for _, airplaneGroups in pairs(country.plane) do
-          for _, airplaneGroup in ipairs(airplaneGroups) do
-            for _, airplaneUnit in ipairs(airplaneGroup.units) do
-              if airplaneUnit.skill == "Client" then
-                airplaneCallback(airplaneUnit)
-              end
-            end
-          end
-        end
-      end
-    end
-  end
-end
-
-print("Loading mission from " .. missionLua)
-dofile(missionLua);
-print("Mission loaded")
-
-local desiredFuelAmounts = {
-  Ka_50=580, -- 40% (total capacity: 1450)
-  Mi_8MT=772, -- 40% (total capacity: 1930)
-  SA342L=166.4, -- 40% (total capacity: 416)
-  SA342M=166.4, -- 40% (total capacity: 416)
-  SA342Mistral=166.4, -- 40% (total capacity: 416)
-  UH_1H=189.6, -- 30% (total capacity: 632)
+local fuelCapacities = {
+  AJS37 = 4476,
+  AV8BNA = 3519.423,
+  A_10A = 5029,
+  A_10C = 5029,
+  C_101CC = 1580.46,
+  FA_18C_hornet = 4900,
+  F_14B = 7348,
+  F_15C = 6103,
+  F_16C_50 = 3249,
+  F_5E_3 = 2046,
+  J_11A = 9400,
+  Ka_50 = 1450,
+  L_39ZA = 823.2,
+  M_2000C = 3165,
+  MiG_19P = 1800,
+  MiG_21Bis = 2280,
+  MiG_29S = 3493,
+  Mi_8MT = 1929,
+  SA342L = 416.33,
+  SA342M = 416.33,
+  SA342Mistral = 416.33,
+  Su_25T = 3790,
+  Su_27 = 5590.18,
+  Su_33 = 9500,
+  UH_1H = 631
 }
 
+local desiredFuelFractions = {
+  AJS37 = 1.0,
+  AV8BNA = 1.0,
+  A_10A = 0.4,
+  A_10C = 0.4,
+  C_101CC = 0.8,
+  FA_18C_hornet = 0.2,
+  F_14B = 0.3,
+  F_15C = 0.2,
+  F_16C_50 = 0.2,
+  F_5E_3 = 1.0,
+  J_11A = 0.5,
+  Ka_50 = 0.4,
+  L_39ZA = 0.82,
+  M_2000C = 0.5,
+  MiG_19P = 1.0,
+  MiG_21Bis = 1.0,
+  MiG_29S = 0.5,
+  Mi_8MT = 0.4,
+  SA342L = 0.4,
+  SA342M = 0.4,
+  SA342Mistral = 0.4,
+  Su_25T = 1.0,
+  Su_27 = 0.5,
+  Su_33 = 0.5,
+  UH_1H = 0.3,
+}
+
+common.loadMission(missionLua)
+
 function setFuel(unit)
+  if unit.skill ~= "Client" then
+    return
+  end
   key = string.gsub(unit.type, "-", "_")
-  desiredFuel = desiredFuelAmounts[key]
-  if desiredFuel == nil then error("No desiredFuelAmount found for " .. key) end
+
+  fuelCapacity = fuelCapacities[key]
+  if fuelCapacity == nil then error("No fuelCapacity found for " .. key) end
+
+  desiredFuelFraction = desiredFuelFractions[key]
+  if desiredFuelFraction == nil then error("No desiredFuelFraction found for " .. key) end
+
+  desiredFuel = fuelCapacity * desiredFuelFraction
+
   if unit.payload.fuel ~= desiredFuel then
     print("Setting fuel for " .. unit.type .. " named " .. unit.name .. " from " .. unit.payload.fuel .. " to " .. desiredFuel)
     unit.payload.fuel = desiredFuel
   end
 end
 
-function noOp(unit)
-end
-
-iterClientUnits(setFuel, noOp)
+common.iterUnits(setFuel)
 
 if write then
   -- Write file to disk
