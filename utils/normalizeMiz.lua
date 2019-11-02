@@ -7,6 +7,7 @@ require("os")
 package.path = package.path .. ";" .. os.getenv("DCS_PATH") .. "\\Scripts\\?.lua"
 
 local Serializer = require("Serializer")
+local inspect = require("inspect")
 local common = require("common")
 
 local missionLua = arg[1]
@@ -90,7 +91,26 @@ function setFuel(unit, route)
   end
 end
 
+function noOp(unit, route)
+end
+
+function ensureGroundTakeoff(unit, route)
+  if unit.skill ~= "Client" then
+    return
+  end
+  
+  for _, point in ipairs(route.points) do
+    if point.action == "Turning Point" and point.type == "Turning Point" then
+      print("Setting take-off from ground for " .. unit.name .. " named " .. unit.name)
+      point.action = "From Ground Area"
+      point.type = "TakeOffGround"
+    end
+    break
+  end
+end
+
 common.iterUnits(setFuel, setFuel)
+common.iterUnits(noOp, ensureGroundTakeoff)
 
 
 if write then
