@@ -75,7 +75,7 @@ ctld.cratesRequiredForFOB = 1 -- The amount of crates required to build a FOB. O
 
 ctld.troopPickupAtFOB = true -- if true, troops can also be picked up at a created FOB
 
-ctld.buildTimeFOB = 5 --time in seconds for the FOB to be built
+ctld.buildTimeFOB = 30 --time in seconds for the FOB to be built
 
 ctld.crateWaitTime = 10 -- time in seconds to wait before you can spawn another crate
 
@@ -168,14 +168,6 @@ ctld.pickupZones = {
 	{ "KN61 Red PickUp", "none", -1, "no", 1 },
 	{ "GH05 Red PickUp", "none", -1, "no", 1 },
 
-	{ "Senaki Blue PickUp", "none", -1, "no", 2 },
-	{ "Kutaisi Blue PickUp", "none", -1, "no", 2 },
-	{ "Kobuleti Blue PickUp", "none", -1, "no", 2 },
-	{ "Sukumi Blue PickUp", "none", -1, "no", 2 },
-	{ "Gudauta Blue PickUp", "none", -1, "no", 2 },
-	{ "Sochi Blue PickUp", "none", -1, "no", 2 },
-	{ "KN61 Blue PickUp", "none", -1, "no", 2 },
-	{ "GH05 Blue PickUp", "none", -1, "no", 2 },
 
     { "pickzone11", "blue", 20, "no", 2 },  -- limits pickup zone 11 to 20 groups of soldiers or vehicles, only blue can pick up. Zone starts inactive!
     { "pickzone12", "red", 20, "no", 1 },  -- limits pickup zone 11 to 20 groups of soldiers or vehicles, only blue can pick up. Zone starts inactive!
@@ -235,9 +227,11 @@ ctld.transportPilotNames = {
     "Sochi Red Helos #007",
     "Sochi Red Helos #008",
     "Sochi Red Helos #009",
-    "Sochi Red Helos #0010",
-    "Sochi Red Helos #0011",
-    "Sochi Red Helos #0012",
+    "Sochi Red Helos #010",
+    "Sochi Red Helos #011",
+    "Sochi Red Helos #012",
+	
+	
     "Sochi Blue Helos #001",
     "Sochi Blue Helos #002",
     "Sochi Blue Helos #003",
@@ -246,9 +240,9 @@ ctld.transportPilotNames = {
     "Sochi Blue Helos #007",
     "Sochi Blue Helos #008",
     "Sochi Blue Helos #009",
-    "Sochi Blue Helos #0010",
-    "Sochi Blue Helos #0011",
-    "Sochi Blue Helos #0012",
+    "Sochi Blue Helos #010",
+    "Sochi Blue Helos #011",
+    "Sochi Blue Helos #012",
 
     "Gudauta Red Helos #001",
     "Gudauta Red Helos #002",
@@ -259,9 +253,10 @@ ctld.transportPilotNames = {
     "Gudauta Red Helos #007",
     "Gudauta Red Helos #008",
     "Gudauta Red Helos #009",
-    "Gudauta Red Helos #0010",
-    "Gudauta Red Helos #0011",
-    "Gudauta Red Helos #0012",
+    "Gudauta Red Helos #010",
+    "Gudauta Red Helos #011",
+    "Gudauta Red Helos #012",
+	
     "Gudauta Blue Helos #001",
     "Gudauta Blue Helos #002",
     "Gudauta Blue Helos #003",
@@ -270,10 +265,9 @@ ctld.transportPilotNames = {
     "Gudauta Blue Helos #007",
     "Gudauta Blue Helos #008",
     "Gudauta Blue Helos #009",
-    "Gudauta Blue Helos #0010",
-    "Gudauta Blue Helos #0011",
-    "Gudauta Blue Helos #0012",
-
+    "Gudauta Blue Helos #010",
+    "Gudauta Blue Helos #011",
+    "Gudauta Blue Helos #012",
 
 
     "Sukumi Red Helos #001",
@@ -285,9 +279,10 @@ ctld.transportPilotNames = {
     "Sukumi Red Helos #007",
     "Sukumi Red Helos #008",
     "Sukumi Red Helos #009",
-    "Sukumi Red Helos #0010",
-    "Sukumi Red Helos #0011",
-    "Sukumi Red Helos #0012",
+    "Sukumi Red Helos #010",
+    "Sukumi Red Helos #011",
+    "Sukumi Red Helos #012",
+	
     "Sukumi Blue Helos #001",
     "Sukumi Blue Helos #002",
     "Sukumi Blue Helos #003",
@@ -297,9 +292,9 @@ ctld.transportPilotNames = {
     "Sukumi Blue Helos #007",
     "Sukumi Blue Helos #008",
     "Sukumi Blue Helos #009",
-    "Sukumi Blue Helos #0010",
-    "Sukumi Blue Helos #0011",
-    "Sukumi Blue Helos #0012",
+    "Sukumi Blue Helos #010",
+    "Sukumi Blue Helos #011",
+    "Sukumi Blue Helos #012",
 
     "Kobuleti Red Helos #001",
     "Kobuleti Red Helos #002",
@@ -310,9 +305,11 @@ ctld.transportPilotNames = {
     "Kobuleti Red Helos #007",
     "Kobuleti Red Helos #008",
     "Kobuleti Red Helos #009",
-    "Kobuleti Red Helos #0010",
-    "Kobuleti Red Helos #0011",
-    "Kobuleti Red Helos #0012",
+    "Kobuleti Red Helos #010",
+    "Kobuleti Red Helos #011",
+    "Kobuleti Red Helos #012",
+	
+	
     "Kobuleti Blue Helos #001",
     "Kobuleti Blue Helos #002",
     "Kobuleti Blue Helos #003",
@@ -321,14 +318,11 @@ ctld.transportPilotNames = {
     "Kobuleti Blue Helos #007",
     "Kobuleti Blue Helos #008",
     "Kobuleti Blue Helos #009",
-    "Kobuleti Blue Helos #0010",
-    "Kobuleti Blue Helos #0011",
-    "Kobuleti Blue Helos #0012",
-
-    "Kutaisi Red AF #005",
-	"Kutaisi Red AF #006",
-	"Kobuleti Red AF #001",
-	"Kobuleti Red AF #002",
+    "Kobuleti Blue Helos #010",
+    "Kobuleti Blue Helos #011",
+    "Kobuleti Blue Helos #012",
+	
+	
 	"Kutaisi Red Helos #001",
     "Kutaisi Red Helos #002",
     "Kutaisi Red Helos #003",
@@ -338,9 +332,11 @@ ctld.transportPilotNames = {
     "Kutaisi Red Helos #007",
     "Kutaisi Red Helos #008",
     "Kutaisi Red Helos #009",
-    "Kutaisi Red Helos #0010",
-    "Kutaisi Red Helos #0011",
-    "Kutaisi Red Helos #0012",
+    "Kutaisi Red Helos #010",
+    "Kutaisi Red Helos #011",
+    "Kutaisi Red Helos #012",
+	
+	
     "Kutaisi Blue Helos #001",
     "Kutaisi Blue Helos #002",
     "Kutaisi Blue Helos #003",
@@ -349,10 +345,11 @@ ctld.transportPilotNames = {
     "Kutaisi Blue Helos #007",
     "Kutaisi Blue Helos #008",
     "Kutaisi Blue Helos #009",
-    "Kutaisi Blue Helos #0010",
-    "Kutaisi Blue Helos #0011",
-    "Kutaisi Blue Helos #0012",
+    "Kutaisi Blue Helos #010",
+    "Kutaisi Blue Helos #011",
+    "Kutaisi Blue Helos #012",
 
+	
     "Senaki Red Helos #001",
     "Senaki Red Helos #002",
     "Senaki Red Helos #003",
@@ -362,9 +359,11 @@ ctld.transportPilotNames = {
     "Senaki Red Helos #007",
     "Senaki Red Helos #008",
     "Senaki Red Helos #009",
-    "Senaki Red Helos #0010",
-    "Senaki Red Helos #0011",
-    "Senaki Red Helos #0012",
+    "Senaki Red Helos #010",
+    "Senaki Red Helos #011",
+    "Senaki Red Helos #012",
+	
+	
     "Senaki Blue Helos #001",
     "Senaki Blue Helos #002",
     "Senaki Blue Helos #003",
@@ -373,9 +372,9 @@ ctld.transportPilotNames = {
     "Senaki Blue Helos #007",
     "Senaki Blue Helos #008",
     "Senaki Blue Helos #009",
-    "Senaki Blue Helos #0010",
-    "Senaki Blue Helos #0011",
-    "Senaki Blue Helos #0012",
+    "Senaki Blue Helos #010",
+    "Senaki Blue Helos #011",
+    "Senaki Blue Helos #012",
 
     "GH05 BLUE HELOS #001",
     "GH05 BLUE HELOS #002",
@@ -386,9 +385,11 @@ ctld.transportPilotNames = {
     "GH05 BLUE HELOS #007",
     "GH05 BLUE HELOS #008",
     "GH05 BLUE HELOS #009",
-    "GH05 BLUE HELOS #0010",
-    "GH05 BLUE HELOS #0011",
-    "GH05 BLUE HELOS #0012",
+    "GH05 BLUE HELOS #010",
+    "GH05 BLUE HELOS #011",
+    "GH05 BLUE HELOS #012",
+	
+	
     "GH05 RED HELOS #001",
     "GH05 RED HELOS #002",
     "GH05 RED HELOS #003",
@@ -397,9 +398,9 @@ ctld.transportPilotNames = {
     "GH05 RED HELOS #007",
     "GH05 RED HELOS #008",
     "GH05 RED HELOS #009",
-    "GH05 RED HELOS #0010",
-    "GH05 RED HELOS #0011",
-    "GH05 RED HELOS #0012",
+    "GH05 RED HELOS #010",
+    "GH05 RED HELOS #011",
+    "GH05 RED HELOS #012",
 
     "KN61 BLUE HELOS #001",
     "KN61 BLUE HELOS #002",
@@ -410,9 +411,11 @@ ctld.transportPilotNames = {
     "KN61 BLUE HELOS #007",
     "KN61 BLUE HELOS #008",
     "KN61 BLUE HELOS #009",
-    "KN61 BLUE HELOS #0010",
-    "KN61 BLUE HELOS #0011",
-    "KN61 BLUE HELOS #0012",
+    "KN61 BLUE HELOS #010",
+    "KN61 BLUE HELOS #011",
+    "KN61 BLUE HELOS #012",
+	
+	
     "KN61 RED HELOS #001",
     "KN61 RED HELOS #002",
     "KN61 RED HELOS #003",
@@ -421,9 +424,56 @@ ctld.transportPilotNames = {
     "KN61 RED HELOS #007",
     "KN61 RED HELOS #008",
     "KN61 RED HELOS #009",
-    "KN61 RED HELOS #0010",
-    "KN61 RED HELOS #0011",
-    "KN61 RED HELOS #0012",
+    "KN61 RED HELOS #010",
+    "KN61 RED HELOS #011",
+    "KN61 RED HELOS #012",
+	
+	"ZENI BLUE HELOS #001",
+	"ZENI BLUE HELOS #002",
+	"ZENI BLUE HELOS #003",
+	"ZENI BLUE HELOS #004",
+	"ZENI BLUE HELOS #005",
+	"ZENI BLUE HELOS #006",
+	"ZENI BLUE HELOS #007",
+	"ZENI BLUE HELOS #008",
+	
+	"ZENI RED HELOS #001",
+	"ZENI RED HELOS #002",
+	"ZENI RED HELOS #003",
+	"ZENI RED HELOS #004",
+	"ZENI RED HELOS #005",
+	"ZENI RED HELOS #006",
+	"ZENI RED HELOS #007",
+	"ZENI RED HELOS #008",
+	
+	"RIKE BLUE HELOS #001",
+	"RIKE BLUE HELOS #002",
+	"RIKE BLUE HELOS #003",
+	"RIKE BLUE HELOS #004",
+	"RIKE BLUE HELOS #005",
+	"RIKE BLUE HELOS #006",
+	"RIKE BLUE HELOS #007",
+	"RIKE BLUE HELOS #008",
+	
+	"RIKE RED HELOS #001",
+	"RIKE RED HELOS #002",
+	"RIKE RED HELOS #003",
+	"RIKE RED HELOS #004",
+	"RIKE RED HELOS #005",
+	"RIKE RED HELOS #006",
+	"RIKE RED HELOS #007",
+	"RIKE RED HELOS #008",
+	
+	
+	
+    "Kutaisi Red AF #005",
+	"Kutaisi Red AF #006",
+	"Kobuleti Red AF #001",
+	"Kobuleti Red AF #002",
+	"Sukumi Blue AF #002",
+	"Sukumi Blue AF #001",
+	
+	"heli1",
 
     -- *** AI transports names (different names only to ease identification in mission) ***
 
@@ -509,6 +559,7 @@ ctld.unitLoadLimits = {
 	["SA342Mistral"] = 1,
 	["SA342L"] = 1,
 	["C-101CC"] = 1,
+	["L-39ZA"] = 1,
 }
 
 
@@ -536,6 +587,7 @@ ctld.unitActions = {
 	["UH-1H"] = {crates=true, troops=true, internal=true},
 	["Mi-8MT"] = {crates=true, troops=true, internal=true},
 	["C-101CC"] = {crates=true, troops=true, internal=true},
+	["L-39ZA"] = {crates=true, troops=true, internal=true},
 
 }
 
@@ -615,11 +667,6 @@ ctld.spawnableCrates = {
           { weight = 1026, desc = "ZSU-23-4 Shilka", unit = "ZSU-23-4 Shilka", side = 1, internal = 0 },
           { weight = 1027, desc = "SA-19 Tunguska", unit = "2S6 Tunguska", side = 1, internal = 0 },
 
-          { weight = 1029, desc = "HQ-7 Launcher", unit = "HQ-7_LN_SP", side = 1, internal = 0 },
-          { weight = 1030, desc = "HQ-7 RADAR", unit = "HQ-7_STR_SP", side = 1, internal = 0 },
-
-
-
 
     },
 
@@ -633,19 +680,16 @@ ctld.spawnableCrates = {
           { weight = 1036, desc = "KUB Launcher", unit = "Kub 2P25 ln", side = 1, internal = 0},
           { weight = 1037, desc = "KUB Radar", unit = "Kub 1S91 str", side = 1, internal = 0 },
 
-		  -- ROLAND SYSTEM
-		  { weight = 1031, desc = "Roland Radar", unit = "Roland Radar", side = 2, internal = 0  },
-          { weight = 1032, desc = "Roland Launcher", unit = "Roland ADS", side = 2, internal = 0  },
-
 		  -- TOR SYSTEM
 		  { weight = 1028, desc = "SA-15 TOR", unit = "Tor 9A331",internal = 0},
 
           -- HAWK System
-          { weight = 1041, desc = "HAWK Launcher", unit = "Hawk ln", side = 2, internal = 0 },
+          { weight = 1040, desc = "HAWK Launcher", unit = "Hawk ln", side = 2, internal = 0 },
           { weight = 1041, desc = "HAWK Search Radar", unit = "Hawk sr", side = 2, internal = 0 },
           { weight = 1042, desc = "HAWK Track Radar", unit = "Hawk tr", side = 2, internal = 0 },
-          { weight = 1043, desc = "HAWK PCP", unit = "Hawk tr" , side = 2, internal = 0 }, -- Remove this if on 1.2
+          { weight = 1043, desc = "HAWK PCP", unit = "Hawk pcp" , side = 2, internal = 0 }, -- Remove this if on 1.2
           -- End of HAWK
+		  
           -- BUK System
           { weight = 1044, desc = "BUK Launcher", unit = "SA-11 Buk LN 9A310M1", side = 1, internal = 0 },
           { weight = 1045, desc = "BUK Search Radar", unit = "SA-11 Buk SR 9S18M1", side = 1, internal = 0 },
@@ -661,10 +705,11 @@ ctld.spawnableCrates = {
           { weight = 1060, desc = "Ural-375 Ammo Truck", unit = "Ural-375", side = 1, cratesRequired = 1, internal = 0 },
           { weight = 1061, desc = "M-818 Ammo Truck", unit = "M 818", side = 2, cratesRequired = 1, internal = 0 },
           { weight = 1062, desc = "SAM Repair", unit = "SAM Repair", side = 1, internal = 0 },
+		  { weight = 1020, desc = "Early Warning Radar", unit = "1L13 EWR", internal = 0},
 
     },
 	["Internal Cargo"] = {
-          { weight = 1020, desc = "Early Warning Radar", unit = "1L13 EWR", side = 0, internal = 1}, -- cant be used by BLUE coalition
+           -- cant be used by BLUE coalition
           { weight = 1008, desc = "HMMWV - JTAC(internal)", unit = "Hummer", side = 2, cratesRequired = 1, internal = 1}, -- used as jtac and unarmed, not on the crate list if JTAC is disabled
 		  { weight = 1009, desc = "UAZ - JTAC(internal)", unit = "UAZ-469", side = 1, cratesRequired = 1, internal = 1 }, -- used as jtac and unarmed, not on the crate list if JTAC is disabled
           { weight = 1063, desc = "Command Center Crate", unit = "FOB", internal = 1 },
@@ -1494,21 +1539,7 @@ ctld.AASystemTemplate = {
         repair = "SAM Repair",
 		systemType = "MR",
     },
-
 	{
-		name = "RAPIER SAM System",
-		count = 3,
-		parts = {
-
-				{ name = "rapier_fsa_launcher", desc = "RAPIER Launcher", launcher = true },
-				{ name = "rapier_fsa_blindfire_radar", desc = "RAPIER Blindfire TR (internal)" },
-				{ name = "rapier_fsa_optical_tracker_unit", desc = "RAPIER Optical Tracker (internal)" },
-		},
-		repair = "SAM Repair",
-		systemType = "SR",
-	},
-
-		{
 		name = "SA-3 SAM System",
 		count = 3,
 		parts = {

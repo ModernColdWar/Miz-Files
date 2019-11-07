@@ -104470,7 +104470,7 @@ warehouses =
             ["OperatingLevel_Fuel"] = 10,
             ["unlimitedAircrafts"] = true,
         }, -- end of [3350]
-        [440] = 
+        [2829] = 
         {
             ["gasoline"] = 
             {
@@ -104491,6 +104491,16 @@ warehouses =
             ["periodicity"] = 30,
             ["suppliers"] = 
             {
+                [1] = 
+                {
+                    ["Id"] = 440,
+                    ["type"] = "warehouses",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["Id"] = 20,
+                    ["type"] = "airports",
+                }, -- end of [2]
             }, -- end of ["suppliers"]
             ["coalition"] = "blue",
             ["jet_fuel"] = 
@@ -104507,7 +104517,7 @@ warehouses =
             }, -- end of ["weapons"]
             ["OperatingLevel_Fuel"] = 10,
             ["unlimitedAircrafts"] = true,
-        }, -- end of [440]
+        }, -- end of [2829]
         [3351] = 
         {
             ["gasoline"] = 
@@ -113679,6 +113689,16 @@ warehouses =
             ["periodicity"] = 30,
             ["suppliers"] = 
             {
+                [1] = 
+                {
+                    ["Id"] = 23,
+                    ["type"] = "airports",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["Id"] = 441,
+                    ["type"] = "warehouses",
+                }, -- end of [2]
             }, -- end of ["suppliers"]
             ["coalition"] = "red",
             ["jet_fuel"] = 
@@ -113696,7 +113716,7 @@ warehouses =
             ["OperatingLevel_Fuel"] = 10,
             ["unlimitedAircrafts"] = true,
         }, -- end of [2768]
-        [2829] = 
+        [440] = 
         {
             ["gasoline"] = 
             {
@@ -113733,6 +113753,6 @@ warehouses =
             }, -- end of ["weapons"]
             ["OperatingLevel_Fuel"] = 10,
             ["unlimitedAircrafts"] = true,
-        }, -- end of [2829]
+        }, -- end of [440]
     }, -- end of ["warehouses"]
 } -- end of warehouses
