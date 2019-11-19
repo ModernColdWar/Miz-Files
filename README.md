@@ -9,6 +9,7 @@ These missions require a copy of the [RedStormRising repo](https://github.com/Mo
 NOTE: When editing the mission file be sure to configure the me_route.lua file C:\Program Files\Eagle Dynamics\DCS World OpenBeta\MissionEditor\modules. 
 
 Starting on Line 139
+
     plane_one_point = {
 		actions.turningPoint, 
 		actions.flyOverPoint,
