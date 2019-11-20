@@ -22,18 +22,26 @@ local function validateClientGroup(group)
         table.insert(errors, string.format("Group '%s' must contain unit with same name, but was '%s'", groupName, unitName))
     end
     for _, error in ipairs(errors) do
-        print("ERROR: "  .. error)
+        print("ERROR: " .. error)
     end
+    return #errors == 0
 end
 
+print("Checking client slots for problems")
+
+local transportPilotNames = {}
 missionUtils.iterGroups(function(group)
     if missionUtils.isClientGroup(group) then
-        validateClientGroup(group)
+        local unit = group.units[1]
+        if validateClientGroup(group) and missionUtils.isTransportType(unit.type) then
+            table.insert(transportPilotNames, missionUtils.getDictionaryValue(unit.name))
+        end
     end
 end)
 
 local pickupZones = {}
 local logisticsZones = {}
+
 for _, zone in ipairs(mission.triggers.zones) do
     local zoneName = zone.name
     if string.match(zoneName:lower(), " pickup$") then
@@ -44,5 +52,17 @@ for _, zone in ipairs(mission.triggers.zones) do
     end
 end
 
-print("Pickup zones: " .. inspect(pickupZones))
-print("Logistics zones: " .. inspect(logisticsZones))
+local function printTable(variableName, tbl)
+    table.sort(tbl)
+    print("-- " .. tonumber(#tbl) .. " entries\n" .. variableName .. " = {")
+    for _, value in ipairs(tbl) do
+        print("    \"" .. value .. "\",")
+    end
+    print("}\n")
+end
+
+print("\n\nThe following variables should be put into CTLD_config.lua\n\n")
+
+printTable("ctld.pickupZones", pickupZones)
+printTable("ctld.logisticUnits", logisticsZones)
+printTable("ctld.transportPilotNames", transportPilotNames)
