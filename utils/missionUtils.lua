@@ -7,7 +7,7 @@ function M.loadMission(missionDir)
     print("Mission loaded")
 end
 
-function M.serializeMission(missionDir)
+function M.serializeMission(mission, missionDir)
     package.path = package.path .. ";" .. os.getenv("DCS_PATH") .. [[\Scripts\?.lua]]
     local Serializer = require("Serializer")
     local missionfile = missionDir .. [[\mission]]
@@ -22,11 +22,12 @@ function M.serializeMission(missionDir)
 end
 
 function M.getDictionaryValue(key)
+    -- luacheck: read_globals dictionary
     return dictionary[key]
 end
 
-function M.iterGroups(groupCallback)
-    for coalitionName, coalition in pairs(mission.coalition) do
+function M.iterGroups(mission, groupCallback)
+    for _, coalition in pairs(mission.coalition) do
         for _, country in ipairs(coalition.country) do
             if country.plane ~= nil then
                 for _, groups in pairs(country.plane) do
@@ -43,15 +44,6 @@ function M.iterGroups(groupCallback)
                 end
             end
         end
-        --    print("Y")
-        --        print("Z")
-        --        groupCallback(group)
-        --    end
-        --    for _, group in ipairs(country.helicopter) do
-        --        print("A")
-        --        groupCallback(group)
-        --    end
-        --end
     end
 end
 
@@ -76,12 +68,24 @@ local transportTypes = {
 }
 
 function M.isTransportType(type)
-    for _i, transportType in ipairs(transportTypes) do
+    for _, transportType in ipairs(transportTypes) do
         if type == transportType then
             return true
         end
     end
     return false
+end
+
+function M.getZoneNames(mission, pattern)
+    local zones = {}
+    for _, zone in ipairs(mission.triggers.zones) do
+        local zoneName = zone.name
+        if string.match(zoneName:lower(), pattern) then
+            table.insert(zones, zoneName)
+        end
+    end
+    table.sort(zones)
+    return zones
 end
 
 return M

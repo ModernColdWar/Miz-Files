@@ -1,4 +1,3 @@
-local inspect = require("inspect")
 local missionUtils = require("missionUtils")
 
 local missionDir = arg[1]
@@ -39,18 +38,9 @@ missionUtils.iterGroups(function(group)
     end
 end)
 
-local pickupZones = {}
-local logisticsZones = {}
-
-for _, zone in ipairs(mission.triggers.zones) do
-    local zoneName = zone.name
-    if string.match(zoneName:lower(), " pickup$") then
-        table.insert(pickupZones, zoneName)
-
-    elseif string.match(zoneName:lower(), " logistics$") then
-        table.insert(logisticsZones, zoneName)
-    end
-end
+-- luacheck: read_globals mission
+local pickupZones = missionUtils.getZoneNames(mission, " pickup$")
+local logisticsZones = missionUtils.getZoneNames(mission, " logistics$")
 
 local function printTable(variableName, tbl)
     table.sort(tbl)
