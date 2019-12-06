@@ -1,0 +1,1233 @@
+=== Log opened UTC 2019-12-06 16:52:00
+2019-12-06 16:52:00.133 INFO    DCS: Command line: "C:\Program Files\Eagle Dynamics\DCS World OpenBeta\bin/DCS.exe"
+2019-12-06 16:52:00.133 INFO    DCS: DCS/2.5.5.40647 (x86_64; Windows NT 10.0.18362)
+2019-12-06 16:52:00.164 INFO    DCS: Hwid: 57ksn9bskfqlgYBps_-PqK7WEoj-3gShZMXOjw
+2019-12-06 16:52:00.164 INFO    DCS: DCS revision: 160617
+2019-12-06 16:52:00.164 INFO    DCS: Renderer revision: 19709
+2019-12-06 16:52:00.164 INFO    DCS: Terrain revision: 19756
+2019-12-06 16:52:00.164 INFO    DCS: CPU cores: 6, threads: 12, System RAM: 32719 MB, Pagefile: 50048 MB
+2019-12-06 16:52:00.238 INFO    EDCORE: (dDispatcher)enterToState_:0
+2019-12-06 16:52:00.398 INFO    Dispatcher: 2019/12/6 11:52 V1803061700
+2019-12-06 16:52:00.422 INFO    INPUT: Device [Keyboard] created deviceId = -1
+2019-12-06 16:52:00.564 INFO    INPUT: Device [TWCS Throttle {66D6F8E0-78BC-11e9-8002-444553540000}] created deviceId = -1
+2019-12-06 16:52:00.564 INFO    INPUT: Joystick created[TWCS Throttle {66D6F8E0-78BC-11e9-8002-444553540000}], ForceFeedBack: no
+2019-12-06 16:52:00.565 INFO    INPUT: Device [T.16000M {66D63590-78BC-11e9-8001-444553540000}] created deviceId = -1
+2019-12-06 16:52:00.565 INFO    INPUT: Joystick created[T.16000M {66D63590-78BC-11e9-8001-444553540000}], ForceFeedBack: no
+2019-12-06 16:52:00.565 INFO    INPUT: Device [Mouse] created deviceId = -1
+2019-12-06 16:52:00.613 INFO    SOUND: Using driver: xaudio29
+2019-12-06 16:52:00.650 INFO    SOUND: Found 3 available audio device(s):
+2019-12-06 16:52:00.650 INFO    SOUND:   0: ID: "\\?\SWD#MMDEVAPI#{0.0.0.00000000}.{c9ece0b3-a67f-4be9-b47c-7684d8baa204}#{e6327cad-dcec-4949-ae8a-991e976a79d2}", Name: "Headphones (Rift Audio)"
+2019-12-06 16:52:00.650 INFO    SOUND:   1: ID: "\\?\SWD#MMDEVAPI#{0.0.0.00000000}.{2969048b-0db4-41c8-9c8c-942bf1cec0e2}#{e6327cad-dcec-4949-ae8a-991e976a79d2}", Name: "Speakers (Realtek High Definition Audio)"
+2019-12-06 16:52:00.650 INFO    SOUND:   2: ID: "\\?\SWD#MMDEVAPI#{0.0.0.00000000}.{44469322-a68e-4459-a989-e9a38b2f82cc}#{e6327cad-dcec-4949-ae8a-991e976a79d2}", Name: "3 - C32F391 (AMD High Definition Audio Device)"
+2019-12-06 16:52:10.201 INFO    SOUND: loaded 1576 sdefs from "sounds\sdef\"
+2019-12-06 16:52:10.201 INFO    SOUNDER: Preloading Sounders from Sounds\Sounders
+2019-12-06 16:52:11.370 INFO    Dispatcher: InitLow
+2019-12-06 16:52:11.668 INFO    NET: Login success.
+2019-12-06 16:52:12.359 INFO    NET: Got auth data.
+2019-12-06 16:52:12.383 INFO    DCS: Successfully got authorization data.
+2019-12-06 16:52:12.397 INFO    Dispatcher: Loading installed modules...
+2019-12-06 16:52:19.719 INFO    Scripting: OBSOLETE mount_vfs_sound_path() used in ./CoreMods/aircraft/AJS37/entry.lua
+2019-12-06 16:52:19.928 INFO    Scripting: OBSOLETE mount_vfs_sound_path() used in ./Mods/aircraft/AJS37/entry.lua
+2019-12-06 16:52:19.930 INFO    Scripting: OBSOLETE mount_vfs_sound_path() used in ./Mods/aircraft/F14/entry.lua
+2019-12-06 16:52:20.004 INFO    Scripting: PLUGINS START-------------------------------------------------
+2019-12-06 16:52:20.133 INFO    SOUNDER: Preloading Sounders from .\CoreMods\tech\TechWeaponPack\Sounds\Sounders
+2019-12-06 16:52:20.307 INFO    SOUNDER: Preloading Sounders from .\CoreMods\tech\USS John C Stennis\Sounds\Sounders
+2019-12-06 16:52:20.470 INFO    SOUND: loaded 15 sdefs from ".\coremods\aircraft\av8bna\sounds\sdef\"
+2019-12-06 16:52:20.470 INFO    SOUNDER: Preloading Sounders from .\CoreMods\aircraft\AV8BNA\Sounds\Sounders
+2019-12-06 16:52:20.487 WARNING EDCORE: Source ./CoreMods/aircraft/AV8BNA/Shapes is already mounted to the same mount /models/.
+2019-12-06 16:52:20.621 INFO    SOUND: loaded 7 sdefs from ".\coremods\aircraft\c-101\sounds\sdef\"
+2019-12-06 16:52:20.696 WARNING EDCORE: Source ./CoreMods/aircraft/C-101/Liveries is already mounted to the same mount /textures//liveries/.
+2019-12-06 16:52:20.845 INFO    SOUND: loaded 28 sdefs from ".\coremods\aircraft\chinaassetpack\sounds\sdef\"
+2019-12-06 16:52:20.845 INFO    SOUNDER: Preloading Sounders from .\CoreMods\aircraft\ChinaAssetPack\Sounds\Sounders
+2019-12-06 16:52:21.137 INFO    SOUND: loaded 5 sdefs from ".\coremods\aircraft\christen eagle ii\sounds\sdef\"
+2019-12-06 16:52:21.198 ERROR   EDCORE: Can't mount coremods/aircraft/christen eagle ii/textures2. Drivers errors: 
+2019-12-06 16:52:21.198 ERROR   EDCORE: 	EDCDriver: there is no directory coremods/aircraft/christen eagle ii/textures2.edc
+2019-12-06 16:52:21.198 ERROR   EDCORE: 	FSDriver: there is no directory coremods/aircraft/christen eagle ii/textures2
+2019-12-06 16:52:21.198 ERROR   EDCORE: 	ZipDriver: Can't open zip archive coremods/aircraft/christen eagle ii/textures2.zip.
+2019-12-06 16:52:21.539 INFO    SOUND: loaded 26 sdefs from ".\coremods\aircraft\f14\sounds\sdef\"
+2019-12-06 16:52:21.539 INFO    SOUNDER: Preloading Sounders from .\CoreMods\aircraft\F14\Sounds\Sounders
+2019-12-06 16:52:21.585 ERROR   EDCORE: Can't mount coremods/aircraft/f14/textures/lns_f14_exterior. Drivers errors: 
+2019-12-06 16:52:21.585 ERROR   EDCORE: 	EDCDriver: there is no directory coremods/aircraft/f14/textures/lns_f14_exterior.edc
+2019-12-06 16:52:21.585 ERROR   EDCORE: 	FSDriver: there is no directory coremods/aircraft/f14/textures/lns_f14_exterior
+2019-12-06 16:52:21.585 ERROR   EDCORE: 	ZipDriver: Can't open zip archive coremods/aircraft/f14/textures/lns_f14_exterior.zip.
+2019-12-06 16:52:22.026 INFO    SOUND: loaded 30 sdefs from ".\coremods\aircraft\i-16\sounds\sdef\"
+2019-12-06 16:52:22.226 INFO    SOUND: loaded 19 sdefs from ".\coremods\aircraft\m-2000c\sounds\sdef\"
+2019-12-06 16:52:22.381 INFO    SOUND: loaded 7 sdefs from ".\coremods\aircraft\mig-21bis\sounds\sdef\"
+2019-12-06 16:52:22.494 INFO    SOUND: loaded 2 sdefs from ".\coremods\aircraft\sa342\sounds\sdef\"
+2019-12-06 16:52:22.938 INFO    SOUND: loaded 59 sdefs from ".\mods\tech\combinedarms\sounds\sdef\"
+2019-12-06 16:52:23.732 INFO    SOUND: loaded 137 sdefs from ".\mods\aircraft\ajs37\sounds\sdef\"
+2019-12-06 16:52:24.016 INFO    SOUND: loaded 50 sdefs from ".\mods\aircraft\av8bna\sounds\sdef\"
+2019-12-06 16:52:24.504 INFO    SOUND: loaded 83 sdefs from ".\mods\aircraft\f-16c\sounds\sdef\"
+2019-12-06 16:53:09.065 INFO    SOUND: loaded 8881 sdefs from ".\mods\aircraft\f14\sounds\sdef\"
+2019-12-06 16:53:09.127 ERROR   EDCORE: Can't mount mods/aircraft/f14/textures/color/dynamic. Drivers errors: 
+2019-12-06 16:53:09.127 ERROR   EDCORE: 	EDCDriver: there is no directory mods/aircraft/f14/textures/color/dynamic.edc
+2019-12-06 16:53:09.127 ERROR   EDCORE: 	FSDriver: there is no directory mods/aircraft/f14/textures/color/dynamic
+2019-12-06 16:53:09.127 ERROR   EDCORE: 	ZipDriver: Can't open zip archive mods/aircraft/f14/textures/color/dynamic.zip.
+2019-12-06 16:53:09.131 ERROR   EDCORE: Can't mount mods/aircraft/f14/textures/chromecatlegacy. Drivers errors: 
+2019-12-06 16:53:09.131 ERROR   EDCORE: 	EDCDriver: there is no directory mods/aircraft/f14/textures/chromecatlegacy.edc
+2019-12-06 16:53:09.131 ERROR   EDCORE: 	FSDriver: there is no directory mods/aircraft/f14/textures/chromecatlegacy
+2019-12-06 16:53:09.131 ERROR   EDCORE: 	ZipDriver: Can't open zip archive mods/aircraft/f14/textures/chromecatlegacy.zip.
+2019-12-06 16:53:09.663 INFO    SOUND: loaded 103 sdefs from ".\mods\aircraft\fa-18c\sounds\sdef\"
+2019-12-06 16:53:09.758 INFO    SOUND: loaded 4 sdefs from ".\mods\aircraft\ka-50\sounds\sdef\"
+2019-12-06 16:53:09.978 INFO    SOUND: loaded 44 sdefs from ".\mods\aircraft\m-2000c\sounds\sdef\"
+2019-12-06 16:53:10.349 INFO    SOUND: loaded 70 sdefs from ".\mods\aircraft\mig-21bis\sounds\sdef\"
+2019-12-06 16:53:10.942 INFO    SOUND: loaded 109 sdefs from ".\mods\aircraft\mi-8mtv2\sounds\sdef\"
+2019-12-06 16:53:11.377 INFO    SOUND: loaded 92 sdefs from ".\mods\aircraft\sa342\sounds\sdef\"
+2019-12-06 16:53:11.503 INFO    SOUND: loaded 21 sdefs from ".\mods\aircraft\uh-1h\sounds\sdef\"
+2019-12-06 16:53:11.515 INFO    Scripting: plugin: SKIPPED 'A-10A by Eagle Dynamics': disabled by 'Flaming Cliffs by Eagle Dynamics'
+2019-12-06 16:53:11.516 INFO    Scripting: plugin: SKIPPED 'F-15C': disabled by 'Flaming Cliffs by Eagle Dynamics'
+2019-12-06 16:53:11.518 INFO    Scripting: plugin: SKIPPED 'MiG-29 Fulcrum by Eagle Dynamics': disabled by 'Flaming Cliffs by Eagle Dynamics'
+2019-12-06 16:53:11.518 INFO    Scripting: plugin: SKIPPED 'Su-25A by Eagle Dynamics': disabled by 'Flaming Cliffs by Eagle Dynamics'
+2019-12-06 16:53:11.518 INFO    Scripting: plugin: SKIPPED 'Su-27 Flanker by Eagle Dynamics': disabled by 'Flaming Cliffs by Eagle Dynamics'
+2019-12-06 16:53:11.518 INFO    Scripting: plugin: SKIPPED 'Su-33 Flanker by Eagle Dynamics': disabled by 'Flaming Cliffs by Eagle Dynamics'
+2019-12-06 16:53:11.524 INFO    Scripting: PLUGINS DONE--------------------------------------------------
+2019-12-06 16:53:13.493 INFO    SECURITYCONTROL: Loaded ./CoreMods/aircraft/AV8BNA/bin/AV8B_AI.dll
+2019-12-06 16:53:13.496 INFO    SECURITYCONTROL: Loaded ./CoreMods/aircraft/C-101/bin/C101Core.dll
+2019-12-06 16:53:13.498 INFO    SECURITYCONTROL: Loaded ./CoreMods/aircraft/ChinaAssetPack/bin/JF-17_AI.dll
+2019-12-06 16:53:13.500 INFO    CE2_AI: Loading CE AI
+2019-12-06 16:53:13.500 INFO    SECURITYCONTROL: Loaded ./CoreMods/aircraft/Christen Eagle II/bin/CE2_AI.dll
+2019-12-06 16:53:13.503 INFO    SECURITYCONTROL: Loaded ./CoreMods/aircraft/F14/bin/F14-AI.dll
+2019-12-06 16:53:13.504 INFO    MiG21_AI: Loading CE AI
+2019-12-06 16:53:13.504 INFO    SECURITYCONTROL: Loaded ./CoreMods/aircraft/MiG-21bis/bin/MiG21_AI.dll
+2019-12-06 16:53:13.511 INFO    SECURITYCONTROL: Loaded ./CoreMods/services/CaptoGlove/bin/edCaptoGlove.dll
+2019-12-06 16:53:13.546 INFO    SECURITYCONTROL: Loaded ./CoreMods/services/VoiceChat/bin/VoiceChat.dll
+2019-12-06 16:53:13.546 INFO    VOICECHAT: --- Initialize VoiceChat ---
+2019-12-06 16:53:14.001 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/tech/CombinedArms/bin/GroundCockpitBase.dll.crypt
+2019-12-06 16:53:14.003 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/tech/CombinedArms/bin/CombinedArms.dll.crypt
+2019-12-06 16:53:14.016 INFO    VIGGEN: AJS37.dll built on Dec  1 2019 19:09:30 SDK: 2 5 5 40472 Run-time: 2.5.5.40647
+2019-12-06 16:53:14.017 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/AJS37/bin/AJS37.dll.crypt
+2019-12-06 16:53:14.065 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/AJS37/bin/AJS37-Avionics.dll.crypt
+2019-12-06 16:53:14.083 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/AV8BNA/bin/AV8B_CPT.dll.crypt
+2019-12-06 16:53:14.086 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/AV8BNA/bin/AV8B_FM.dll.crypt
+2019-12-06 16:53:14.112 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/F-16C/bin/F16C.dll.crypt
+2019-12-06 16:53:14.115 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/F14/bin/F14-HeatblurCommon.dll.crypt
+2019-12-06 16:53:14.150 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/F14/bin/F14-FlightModel.dll.crypt
+2019-12-06 16:53:14.191 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/F14/bin/F14-Avionics.dll.crypt
+2019-12-06 16:53:14.229 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/FA-18C/bin/FA18C.dll.crypt
+2019-12-06 16:53:15.413 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/Flaming Cliffs/bin/FC3.dll
+2019-12-06 16:53:15.539 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/Flaming Cliffs/bin/A10A.dll
+2019-12-06 16:53:15.738 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/Flaming Cliffs/bin/F15.dll
+2019-12-06 16:53:16.340 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/Flaming Cliffs/bin/Su27.dll
+2019-12-06 16:53:16.737 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/Flaming Cliffs/bin/Su33.dll
+2019-12-06 16:53:16.740 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/Flaming Cliffs/bin/MiG29.dll
+2019-12-06 16:53:17.731 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/Ka-50/bin/Ka50.dll
+2019-12-06 16:53:17.782 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/Ka-50/bin/CockpitKa50.dll
+2019-12-06 16:53:17.784 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/M-2000C/bin/M2KC_FM.dll.crypt
+2019-12-06 16:53:17.797 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/M-2000C/bin/M2KC_CPT.dll.crypt
+2019-12-06 16:53:17.799 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/MIG-21bis/bin/FlightModel.dll.crypt
+2019-12-06 16:53:17.807 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/MIG-21bis/bin/Avionics.dll.crypt
+2019-12-06 16:53:17.813 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/Mi-8MTV2/bin/Mi8.dll.crypt
+2019-12-06 16:53:17.827 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/Mi-8MTV2/bin/CockpitMi8.dll.crypt
+2019-12-06 16:53:17.837 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/SA342/bin/SA342.dll.crypt
+2019-12-06 16:53:17.841 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/TF-51D/bin/P51Base.dll
+2019-12-06 16:53:17.842 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/TF-51D/bin/TF51D.dll
+2019-12-06 16:53:17.847 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/TF-51D/bin/Cockpit_P51Common.dll
+2019-12-06 16:53:17.853 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/Uh-1H/bin/UH1H.dll.crypt
+2019-12-06 16:53:17.892 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/Uh-1H/bin/CockpitUH1H.dll.crypt
+2019-12-06 16:53:17.945 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/jsAvionics/bin/jsAvionics.dll
+2019-12-06 16:53:17.981 INFO    SECURITYCONTROL: Loaded C:\Users\johna\Saved Games\DCS.openbeta\Mods/tech/DCS-SRS/bin/srs.dll
+2019-12-06 16:53:19.145 INFO    DCS: options.graphics =
+{
+	['messagesFontScale'] = 1;
+	['rainDroplets'] = false;
+	['LensEffects'] = 0;
+	['heatBlr'] = 0;
+	['anisotropy'] = 1;
+	['water'] = 0;
+	['motionBlur'] = 0;
+	['outputGamma'] = 2.2;
+	['treesVisibility'] = 5000;
+	['aspect'] = 1.6666666666;
+	['lights'] = 2;
+	['shadows'] = 0;
+	['MSAA'] = 0;
+	['SSAA'] = 0;
+	['civTraffic'] = '';
+	['clutterMaxDistance'] = 0;
+	['cockpitGI'] = 0;
+	['terrainTextures'] = 'min';
+	['multiMonitorSetup'] = '1camera';
+	['shadowTree'] = false;
+	['chimneySmokeDensity'] = 0;
+	['fullScreen'] = false;
+	['DOF'] = 0;
+	['clouds'] = 1;
+	['flatTerrainShadows'] = 2;
+	['forestDistanceFactor'] = 0.3;
+	['width'] = 1280;
+	['visibRange'] = 'Medium';
+	['effects'] = 3;
+	['SSAO'] = 0;
+	['useDeferredShading'] = 1;
+	['sync'] = false;
+	['textures'] = 1;
+	['scaleGui'] = false;
+	['preloadRadius'] = 150000;
+	['height'] = 768;
+	['terrainMapMFD'] = 
+	{
+		['distance'] = 
+		{
+			['mapLodDistance3'] = 200000;
+			['mapLodDistance2'] = 100000;
+			['mapLodDistance0'] = 25000;
+			['mapLodDistance1'] = 50000;
+		};
+	};
+};
+2019-12-06 16:53:19.243 INFO    VISUALIZER: LAUNCH IN VR : OculusRift : Oculus Rift CV1
+2019-12-06 16:53:19.248 INFO    GRAPHICSVISTA: renderer: 'dx11backend.dll'
+2019-12-06 16:53:19.359 INFO    DX11BACKEND: Driver Concurrent Creates - 1
+2019-12-06 16:53:19.359 INFO    DX11BACKEND: Driver Command Lists - 0
+2019-12-06 16:53:19.364 INFO    DX11BACKEND: NvAPI_Initialize Error: 
+2019-12-06 16:53:19.407 INFO    DX11BACKEND: ATI Adapter Radeon RX 580 Series
+2019-12-06 16:53:19.407 INFO    DX11BACKEND: ATI Driver Version 19.30.31.15-191112a-348545E-RadeonSoftwareAdrenalin2019
+2019-12-06 16:53:19.407 INFO    DX11BACKEND: AGS Version 3.2.0
+2019-12-06 16:53:19.408 INFO    DX11BACKEND: TRUNK renderer init: showShaderError coreCount=1
+2019-12-06 16:53:20.334 INFO    DX11BACKEND: commonPool: 68-128, cbPool: 5-14, samplerPool: 5-16
+2019-12-06 16:53:20.366 INFO    DX11BACKEND: DX11ShaderBinaries::loadCache Bazar/shaders/fxo/fxo.zip
+2019-12-06 16:53:20.448 WARNING DX11BACKEND: Shader deferred/bloom.fx:DIRECTX11=true;MSAA=2;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/deferred/bloom.fx is modified.
+2019-12-06 16:53:21.065 WARNING DX11BACKEND: Shader deferred/compose.fx:ALBEDO_TUNING;DIRECTX11=true;USE_DCS_DEFERRED=1;USE_SHADOWS=1;USE_SSAO=1; is outdated as file bazar/shaders/deferred/compose.fx is modified.
+2019-12-06 16:53:21.131 WARNING DX11BACKEND: Shader model/mirror_material.fx:BLEND_MODE=0;DIFFUSE_UV=tc0;DIRECTX11=true;METROUGH_MAP;NORMAL_SIZE=3;SPECULAR_UV=tc0;TEXCOORD0_SIZE=2;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/model/mirror_material.fx is modified.
+2019-12-06 16:53:21.253 WARNING DX11BACKEND: Shader model/mirror_material.fx:BLEND_MODE=0;DIFFUSE_UV=tc0;DIRECTX11=true;NORMAL_SIZE=3;TEXCOORD0_SIZE=2;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/model/mirror_material.fx is modified.
+2019-12-06 16:53:21.257 WARNING DX11BACKEND: Shader deferred/compose.fx:ALBEDO_TUNING;DIRECTX11=true;MSAA=4;USE_DCS_DEFERRED=1;USE_SHADOWS=1;USE_SSAO=0; is outdated as file bazar/shaders/deferred/compose.fx is modified.
+2019-12-06 16:53:21.366 WARNING DX11BACKEND: Shader deferred/compose.fx:ALBEDO_TUNING;DIRECTX11=true;USE_DCS_DEFERRED=1;USE_SHADOWS=1;USE_SSAO=0; is outdated as file bazar/shaders/deferred/compose.fx is modified.
+2019-12-06 16:53:21.368 WARNING DX11BACKEND: Shader deferred/compose.fx:DIRECTX11=true;USE_DCS_DEFERRED=1;USE_SHADOWS=0;USE_SSAO=0; is outdated as file bazar/shaders/deferred/compose.fx is modified.
+2019-12-06 16:53:21.473 WARNING DX11BACKEND: Shader deferred/compose.fx:ALBEDO_TUNING;DIRECTX11=true;MSAA=2;USE_DCS_DEFERRED=1;USE_SHADOWS=1;USE_SSAO=1; is outdated as file bazar/shaders/deferred/compose.fx is modified.
+2019-12-06 16:53:21.516 WARNING DX11BACKEND: Shader enlight/water.fx:DIRECTX11=true;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/enlight/water.fx is modified.
+2019-12-06 16:53:21.631 WARNING DX11BACKEND: Shader model/mirror_material.fx:BLEND_MODE=0;DIRECTX11=true;METROUGH_MAP;NORMAL_SIZE=3;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/model/mirror_material.fx is modified.
+2019-12-06 16:53:21.657 WARNING DX11BACKEND: Shader metashaders/grass/grass.fx:DIRECTX11=true;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/metashaders/grass/grass.fx is modified.
+2019-12-06 16:53:21.680 WARNING DX11BACKEND: Shader deferred/compose.fx:DIRECTX11=true;MSAA=2;USE_DCS_DEFERRED=1;USE_SHADOWS=1;USE_SSAO=1; is outdated as file bazar/shaders/deferred/compose.fx is modified.
+2019-12-06 16:53:21.736 WARNING DX11BACKEND: Shader deferred/compose.fx:DIRECTX11=true;USE_DCS_DEFERRED=1;USE_SHADOWS=0;USE_SSAO=1; is outdated as file bazar/shaders/deferred/compose.fx is modified.
+2019-12-06 16:53:21.760 WARNING DX11BACKEND: Shader deferred/compose.fx:DIRECTX11=true;USE_DCS_DEFERRED=1;USE_SHADOWS=1;USE_SSAO=1; is outdated as file bazar/shaders/deferred/compose.fx is modified.
+2019-12-06 16:53:21.807 WARNING DX11BACKEND: Shader enlight/water.fx:DIRECTX11=true;MSAA=2;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/enlight/water.fx is modified.
+2019-12-06 16:53:21.874 WARNING DX11BACKEND: Shader model/mirror_material.fx:BINORMAL_SIZE=2;BLEND_MODE=0;DIFFUSE_UV=tc0;DIRECTX11=true;NORMAL_MAP_UV=tc0;NORMAL_SIZE=3;SPECULAR_UV=tc0;TANGENT_SIZE=4;TEXCOORD0_SIZE=2;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/model/mirror_material.fx is modified.
+2019-12-06 16:53:21.895 WARNING DX11BACKEND: Shader deferred/compose.fx:ALBEDO_TUNING;DIRECTX11=true;USE_DCS_DEFERRED=1;USE_SHADOWS=0;USE_SSAO=0; is outdated as file bazar/shaders/deferred/compose.fx is modified.
+2019-12-06 16:53:21.953 WARNING DX11BACKEND: Shader deferred/tonemap.fx:DIRECTX11=true;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/deferred/tonemap.fx is modified.
+2019-12-06 16:53:21.964 WARNING DX11BACKEND: Shader deferred/histogramcompute.fx:DIRECTX11=true;MSAA=2;STAGES_COUNT=3;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/deferred/histogramcompute.fx is modified.
+2019-12-06 16:53:21.970 WARNING DX11BACKEND: Shader deferred/histogramcompute.fx:DIRECTX11=true;STAGES_COUNT=3;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/deferred/histogramcompute.fx is modified.
+2019-12-06 16:53:22.052 WARNING DX11BACKEND: Shader deferred/tonemap.fx:DIRECTX11=true;MSAA=2;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/deferred/tonemap.fx is modified.
+2019-12-06 16:53:22.065 WARNING DX11BACKEND: Shader deferred/compose.fx:DIRECTX11=true;MSAA=2;USE_DCS_DEFERRED=1;USE_SHADOWS=0;USE_SSAO=0; is outdated as file bazar/shaders/deferred/compose.fx is modified.
+2019-12-06 16:53:22.104 WARNING DX11BACKEND: Shader model/mirror_material.fx:BLEND_MODE=0;DIFFUSE_UV=tc0;DIRECTX11=true;NORMAL_SIZE=3;SPECULAR_UV=tc0;TEXCOORD0_SIZE=2;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/model/mirror_material.fx is modified.
+2019-12-06 16:53:22.165 WARNING DX11BACKEND: Shader deferred/compose.fx:ALBEDO_TUNING;DIRECTX11=true;MSAA=4;USE_DCS_DEFERRED=1;USE_SHADOWS=0;USE_SSAO=0; is outdated as file bazar/shaders/deferred/compose.fx is modified.
+2019-12-06 16:53:22.239 WARNING DX11BACKEND: Shader deferred/compose.fx:ALBEDO_TUNING;DIRECTX11=true;MSAA=4;USE_DCS_DEFERRED=1;USE_SHADOWS=1;USE_SSAO=1; is outdated as file bazar/shaders/deferred/compose.fx is modified.
+2019-12-06 16:53:22.320 WARNING DX11BACKEND: Shader deferred/compose.fx:ALBEDO_TUNING;DIRECTX11=true;MSAA=2;USE_DCS_DEFERRED=1;USE_SHADOWS=1;USE_SSAO=0; is outdated as file bazar/shaders/deferred/compose.fx is modified.
+2019-12-06 16:53:22.412 WARNING DX11BACKEND: Shader deferred/compose.fx:DIRECTX11=true;USE_DCS_DEFERRED=1;USE_SHADOWS=1;USE_SSAO=0; is outdated as file bazar/shaders/deferred/compose.fx is modified.
+2019-12-06 16:53:22.428 WARNING DX11BACKEND: Shader deferred/compose.fx:ALBEDO_TUNING;DIRECTX11=true;MSAA=2;USE_DCS_DEFERRED=1;USE_SHADOWS=0;USE_SSAO=1; is outdated as file bazar/shaders/deferred/compose.fx is modified.
+2019-12-06 16:53:22.464 WARNING DX11BACKEND: Shader deferred/tonemap.fx:DIRECTX11=true;MSAA=4;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/deferred/tonemap.fx is modified.
+2019-12-06 16:53:22.467 WARNING DX11BACKEND: Shader deferred/compose.fx:ALBEDO_TUNING;DIRECTX11=true;USE_DCS_DEFERRED=1;USE_SHADOWS=0;USE_SSAO=1; is outdated as file bazar/shaders/deferred/compose.fx is modified.
+2019-12-06 16:53:22.492 WARNING DX11BACKEND: Shader metashaders/grass/grass2.fx:DIRECTX11=true;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/metashaders/grass/grass2.fx is modified.
+2019-12-06 16:53:22.595 WARNING DX11BACKEND: Shader deferred/compose.fx:DIRECTX11=true;MSAA=4;USE_DCS_DEFERRED=1;USE_SHADOWS=0;USE_SSAO=1; is outdated as file bazar/shaders/deferred/compose.fx is modified.
+2019-12-06 16:53:22.743 WARNING DX11BACKEND: Shader model/mirror_material.fx:BINORMAL_SIZE=2;BLEND_MODE=0;DAMAGE_UV=tc0;DIFFUSE_UV=tc0;DIRECTX11=true;ENABLE_DAMAGE_ARGUMENTS;METROUGH_MAP;NORMAL_MAP_UV=tc0;NORMAL_SIZE=3;SPECULAR_UV=tc0;TANGENT_SIZE=4;TEXCOORD0_SIZE=2;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/model/mirror_material.fx is modified.
+2019-12-06 16:53:22.751 WARNING DX11BACKEND: Shader deferred/bloom.fx:DIRECTX11=true;MSAA=4;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/deferred/bloom.fx is modified.
+2019-12-06 16:53:22.757 WARNING DX11BACKEND: Shader enlight/sun.fx:DIRECTX11=true;MSAA=2;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/enlight/sun.fx is modified.
+2019-12-06 16:53:22.773 WARNING DX11BACKEND: Shader deferred/compose.fx:ALBEDO_TUNING;DIRECTX11=true;MSAA=2;USE_DCS_DEFERRED=1;USE_SHADOWS=0;USE_SSAO=0; is outdated as file bazar/shaders/deferred/compose.fx is modified.
+2019-12-06 16:53:22.889 WARNING DX11BACKEND: Shader deferred/compose.fx:ALBEDO_TUNING;DIRECTX11=true;MSAA=4;USE_DCS_DEFERRED=1;USE_SHADOWS=0;USE_SSAO=1; is outdated as file bazar/shaders/deferred/compose.fx is modified.
+2019-12-06 16:53:22.918 WARNING DX11BACKEND: Shader model/mirror_material.fx:BINORMAL_SIZE=2;BLEND_MODE=0;DIFFUSE_UV=tc0;DIRECTX11=true;METROUGH_MAP;NORMAL_MAP_UV=tc0;NORMAL_SIZE=3;SPECULAR_UV=tc0;TANGENT_SIZE=4;TEXCOORD0_SIZE=2;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/model/mirror_material.fx is modified.
+2019-12-06 16:53:22.946 WARNING DX11BACKEND: Shader model/mirror_material.fx:BINORMAL_SIZE=2;BLEND_MODE=0;DAMAGE_UV=tc0;DIFFUSE_UV=tc0;DIRECTX11=true;ENABLE_DAMAGE_ARGUMENTS;METROUGH_MAP;METROUGH_MAP;NORMAL_MAP_UV=tc0;NORMAL_SIZE=3;SPECULAR_UV=tc0;TANGENT_SIZE=4;TEXCOORD0_SIZE=2;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/model/mirror_material.fx is modified.
+2019-12-06 16:53:22.967 WARNING DX11BACKEND: Shader model/mirror_material.fx:BLEND_MODE=0;DIRECTX11=true;NORMAL_SIZE=3;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/model/mirror_material.fx is modified.
+2019-12-06 16:53:22.976 WARNING DX11BACKEND: Shader enlight/sun.fx:DIRECTX11=true;MSAA=4;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/enlight/sun.fx is modified.
+2019-12-06 16:53:23.120 WARNING DX11BACKEND: Shader deferred/compose.fx:DIRECTX11=true;MSAA=4;USE_DCS_DEFERRED=1;USE_SHADOWS=1;USE_SSAO=0; is outdated as file bazar/shaders/deferred/compose.fx is modified.
+2019-12-06 16:53:23.138 WARNING DX11BACKEND: Shader model/mirror_material.fx:BINORMAL_SIZE=2;BLEND_MODE=0;DAMAGE_UV=tc1;DIFFUSE_UV=tc0;DIRECTX11=true;ENABLE_DAMAGE_ARGUMENTS;METROUGH_MAP;METROUGH_MAP;NORMAL_MAP_UV=tc0;NORMAL_SIZE=3;SPECULAR_UV=tc0;TANGENT_SIZE=4;TEXCOORD0_SIZE=2;TEXCOORD1_SIZE=2;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/model/mirror_material.fx is modified.
+2019-12-06 16:53:23.172 WARNING DX11BACKEND: Shader deferred/compose.fx:DIRECTX11=true;MSAA=4;USE_DCS_DEFERRED=1;USE_SHADOWS=1;USE_SSAO=1; is outdated as file bazar/shaders/deferred/compose.fx is modified.
+2019-12-06 16:53:23.231 WARNING DX11BACKEND: Shader enlight/sun.fx:DIRECTX11=true;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/enlight/sun.fx is modified.
+2019-12-06 16:53:23.248 WARNING DX11BACKEND: Shader deferred/compose.fx:DIRECTX11=true;MSAA=2;USE_DCS_DEFERRED=1;USE_SHADOWS=0;USE_SSAO=1; is outdated as file bazar/shaders/deferred/compose.fx is modified.
+2019-12-06 16:53:23.270 WARNING DX11BACKEND: Shader model/mirror_material.fx:BLEND_MODE=0;DIFFUSE_UV=tc0;DIRECTX11=true;METROUGH_MAP;NORMAL_SIZE=3;TEXCOORD0_SIZE=2;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/model/mirror_material.fx is modified.
+2019-12-06 16:53:23.302 WARNING DX11BACKEND: Shader deferred/bloom.fx:DIRECTX11=true;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/deferred/bloom.fx is modified.
+2019-12-06 16:53:23.307 WARNING DX11BACKEND: Shader deferred/compose.fx:DIRECTX11=true;MSAA=4;USE_DCS_DEFERRED=1;USE_SHADOWS=0;USE_SSAO=0; is outdated as file bazar/shaders/deferred/compose.fx is modified.
+2019-12-06 16:53:23.351 WARNING DX11BACKEND: Shader model/mirror_material.fx:BINORMAL_SIZE=2;BLEND_MODE=0;DAMAGE_UV=tc1;DIFFUSE_UV=tc0;DIRECTX11=true;ENABLE_DAMAGE_ARGUMENTS;METROUGH_MAP;NORMAL_MAP_UV=tc0;NORMAL_SIZE=3;SPECULAR_UV=tc0;TANGENT_SIZE=4;TEXCOORD0_SIZE=2;TEXCOORD1_SIZE=2;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/model/mirror_material.fx is modified.
+2019-12-06 16:53:23.429 WARNING DX11BACKEND: Shader deferred/compose.fx:DIRECTX11=true;MSAA=2;USE_DCS_DEFERRED=1;USE_SHADOWS=1;USE_SSAO=0; is outdated as file bazar/shaders/deferred/compose.fx is modified.
+2019-12-06 16:53:23.458 WARNING DX11BACKEND: Shader enlight/water.fx:DIRECTX11=true;MSAA=4;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/enlight/water.fx is modified.
+2019-12-06 16:53:23.501 WARNING DX11BACKEND: Shader deferred/histogramcompute.fx:DIRECTX11=true;MSAA=4;STAGES_COUNT=3;USE_DCS_DEFERRED=1; is outdated as file bazar/shaders/deferred/histogramcompute.fx is modified.
+2019-12-06 16:53:23.518 INFO    DX11BACKEND: DX11ShaderBinaries::loadCache done. Loaded 961/1014.
+2019-12-06 16:53:23.530 INFO    DX11BACKEND: DX11ShaderBinaries::loadCache C:\Users\johna\Saved Games\DCS.openbeta\fxo
+2019-12-06 16:53:23.960 INFO    DX11BACKEND: DX11ShaderBinaries::loadCache done. Loaded 70/70.
+2019-12-06 16:53:24.600 INFO    VISUALIZER: SceneManager initialization
+2019-12-06 16:53:25.300 INFO    VISUALIZER: cascade shadows init (preset:'current' quality:0 layers:1 size:1)
+2019-12-06 16:53:25.362 INFO    SOUND: XAudio2: channel layout: Headphones/Stereo
+2019-12-06 16:53:25.372 WARNING LOG: 1 duplicate message(s) skipped.
+2019-12-06 16:53:25.372 INFO    SOUND: Using SSE FTZ/DAZ mode.
+2019-12-06 16:53:25.487 WARNING LOG: 1 duplicate message(s) skipped.
+2019-12-06 16:53:25.487 INFO    DCS: gDescription: "Radeon RX 580 Series" gVendorId: 4098 gDeviceId: 26591 gMemory: 4041 MB
+2019-12-06 16:53:25.586 ERROR   EDOBJECTS: Destruction shape not found AVIASHTAB_CRASH
+2019-12-06 16:53:25.589 ERROR   EDOBJECTS: Object HB_F14_EXT_PHX_ALU with id=307 already declared in table MissileTable
+2019-12-06 16:53:26.932 INFO    DX11BACKEND: DX11ShaderBinaries::loadCache ./Mods/aircraft/F14/fxo
+2019-12-06 16:53:26.932 INFO    DX11BACKEND: DX11ShaderBinaries::loadCache done. Loaded 0/0.
+2019-12-06 16:53:27.058 INFO    EDCORE: (dDispatcher)enterToState_:1
+2019-12-06 16:53:35.494 INFO    UIBASERENDERER: Cannot load font [C:\Program Files\Eagle Dynamics\DCS World OpenBeta\dxgui\skins\fonts\]!
+2019-12-06 16:53:38.648 INFO    LuaNET: Loading - DCS-SRS GameGUI - Ciribob: 1.7.1.2
+2019-12-06 16:53:38.666 INFO    LuaNET: Loaded - DCS-SRS GameGUI - Ciribob: 1.7.1.2
+2019-12-06 16:53:38.674 INFO    LuaNET: Loading - DCS-SRS Overlay GameGUI - Ciribob: 1.7.1.2 
+2019-12-06 16:53:38.675 INFO    LuaNET: Loaded - DCS-SRS Overlay GameGUI - Ciribob: 1.7.1.2 
+2019-12-06 16:53:38.689 INFO    LuaNET: [Scratchpad] Loaded ...
+2019-12-06 16:53:38.706 INFO    TACVIEW.GUI: Loading C++ flight data recorder from [C:\Users\johna\Saved Games\DCS.openbeta\Mods\tech\Tacview\bin\]
+2019-12-06 16:53:38.744 INFO    TACVIEW.GUI: Tacview 1.8.0 C++ flight data recorder successfully loaded
+2019-12-06 16:53:39.592 INFO    Dispatcher: //=== END OF INIT ======================================//
+2019-12-06 16:53:39.592 INFO    EDCORE: (dDispatcher)enterToState_:2
+2019-12-06 16:53:39.659 INFO    EDCORE: (dDispatcher)enterToState_:3
+2019-12-06 16:53:39.659 INFO    Lua: Lua CPU usage: metric: average game loading: 75.0178 %
+2019-12-06 16:53:39.781 INFO    DCS: Screen: MainMenu
+2019-12-06 16:54:27.468 INFO    GRAPHICSVISTA: Creating Resource "Unicode" of type 1
+2019-12-06 16:54:32.509 INFO    SOUND: Using SSSE3 for peak calc.
+2019-12-06 16:54:32.511 INFO    NET: client has started
+2019-12-06 16:54:32.514 INFO    NET: Using LEDBAT for UDP congestion control.
+2019-12-06 16:54:41.029 INFO    DCS: Screen: Client
+2019-12-06 16:54:41.371 INFO    NET: connected to server
+2019-12-06 16:54:41.372 INFO    TACVIEW.DLL: Tacview Flight Data Recorder 1.8.0 Loaded
+2019-12-06 16:54:41.372 INFO    TACVIEW.DLL: Config={bookmarkShortcut=0, clientTelemetryPassword="", compressionLevel=1, dataRecordingEnabled=1, debugModeEnabled=0, hostTelemetryPassword="", playbackDelay=600, profilingPeriod=600, realTimeTelemetryPort=42674, recordClientsSessionsEnabled=0, remoteControlPassword="", remoteControlPort=42675}
+2019-12-06 16:56:30.322 INFO    Dispatcher: loadMission C:\Users\johna\Saved Games\DCS.openbeta\Tracks\Multiplayer\PVP-Dynamic-Persistent_Air_Ground_War_V.1.4.1-20191206-115441.trk
+2019-12-06 16:56:30.323 INFO    WORLDGENERAL: loading mission from: "C:\Users\johna\Saved Games\DCS.openbeta\Tracks\Multiplayer\PVP-Dynamic-Persistent_Air_Ground_War_V.1.4.1-20191206-115441.trk"
+2019-12-06 16:56:33.095 INFO    EDCORE: (dDispatcher)enterToState_:4
+2019-12-06 16:56:33.114 INFO    Dispatcher: Terrain theatre Caucasus
+2019-12-06 16:56:33.184 INFO    Dispatcher: Start
+2019-12-06 16:56:33.188 INFO    DCS: Screen: MainMenu
+2019-12-06 16:56:33.188 INFO    VOICECHAT: --- Stop VoiceChat services ---
+2019-12-06 16:56:33.188 INFO    VOICECHAT: --- New Mission or Change Mission ---
+2019-12-06 16:56:33.251 INFO    Dispatcher: Terrain theatre Caucasus
+2019-12-06 16:56:33.251 INFO    TERRAIN: lSystem::load(./Mods/terrains/Caucasus\terrain.cfg.lua)
+2019-12-06 16:56:33.251 INFO    TERRAIN: lSystem::CleanScenes()
+2019-12-06 16:56:33.251 INFO    TERRAIN: lSystem::exit()
+2019-12-06 16:56:33.251 INFO    VISUALIZER: TerrainRenderer::release
+2019-12-06 16:56:33.251 INFO    TERRAIN: lSystem::CleanScenes()
+2019-12-06 16:56:33.251 INFO    EDOBJECTS: lTypeObjectManagerImpl::clear 13
+2019-12-06 16:56:33.689 INFO    EDTERRAIN4: TERRAIN_REVISION = 2727
+2019-12-06 16:56:33.689 INFO    EDTERRAIN4: Open terrain cfg "./Mods/terrains/Caucasus\terrain.cfg.lua"
+2019-12-06 16:56:33.689 INFO    EDTERRAIN4: Build date: 
+2019-12-06 16:56:33.689 INFO    EDTERRAIN4: Texture quality: "min"
+2019-12-06 16:56:34.089 INFO    EDCORE: 0.391773 s  terrain references
+2019-12-06 16:56:34.090 INFO    EDCORE: 0.000023 s  terrain models
+2019-12-06 16:56:34.153 INFO    EDCORE: 0.000008 s  terrain assets
+2019-12-06 16:56:34.373 INFO    EDCORE: 0.164447 s  terrain assets2
+2019-12-06 16:56:34.746 INFO    EDCORE: 0.370967 s  terrain landfile
+2019-12-06 16:56:34.761 INFO    EDCORE: 0.010485 s  terrain surfaceTile
+2019-12-06 16:56:34.807 INFO    EDTERRAIN4: switchTextures (season=1, minTexture=true)
+2019-12-06 16:56:35.650 INFO    EDCORE: 0.842632 s  terrain vfstextures
+2019-12-06 16:56:35.757 INFO    EDCORE: 0.105568 s  terrain scene
+2019-12-06 16:56:35.761 INFO    EDCORE: 0.000008 s  terrain roaddetails
+2019-12-06 16:56:35.819 INFO    EDCORE: 0.000010 s  terrain forest
+2019-12-06 16:56:39.818 INFO    EDCORE: 3.942728 s  terrain routes
+2019-12-06 16:56:39.832 INFO    EDCORE: 0.004759 s  terrain surfacedetails
+2019-12-06 16:56:39.881 INFO    EDCORE: 0.000141 s  terrain blocks
+2019-12-06 16:56:39.943 INFO    EDCORE: 0.000003 s  terrain references
+2019-12-06 16:56:40.281 INFO    EDCORE: 0.356249 s  terrain superficials
+2019-12-06 16:56:40.319 INFO    EDCORE: 0.027444 s  terrain lma
+2019-12-06 16:56:40.336 INFO    EDCORE: 0.000026 s  terrain vectordatasettings
+2019-12-06 16:56:41.501 INFO    EDCORE: 1.122752 s  terrain navgraph
+2019-12-06 16:56:41.519 INFO    EDCORE: 0.016126 s  terrain vti
+2019-12-06 16:56:41.519 INFO    EDTERRAIN4: terrain time: 7.830149 s
+2019-12-06 16:56:41.637 INFO    TERRAIN: lSystem::InitScenes()
+2019-12-06 16:56:41.637 INFO    EDTERRAIN4: lTerraDispatchImpl::setDate( day=31, month=10)
+2019-12-06 16:56:41.637 INFO    EDTERRAIN4: switch to season = autumn
+2019-12-06 16:56:41.637 INFO    EDTERRAIN4: switchTextures (season=2, minTexture=true)
+2019-12-06 16:56:41.753 INFO    DX11BACKEND: Reloading textures ...
+2019-12-06 16:56:43.095 INFO    EDTERRAINGRAPHICS41: ITerrainGraphicsImpl4::openTerrain() START
+2019-12-06 16:56:43.095 INFO    EDTERRAINGRAPHICS41: loading terrain options: Config/terrain/terrainoptions41.lua
+2019-12-06 16:56:43.105 INFO    EDTERRAINGRAPHICS41: loading terrain shading options: ./Mods/terrains/Caucasus/shadingOptions/Caucasus.lua
+2019-12-06 16:56:43.117 INFO    RENDERER: MetaShaderCache2: [108] from ./Mods/terrains/Caucasus/misc/metacache/dcs.lua
+2019-12-06 16:56:43.120 INFO    RENDERER: loaded [0/108]
+2019-12-06 16:56:43.580 WARNING EDTERRAINGRAPHICS41: failed to open "surfaceDetailsHints" section in terrain config
+2019-12-06 16:56:43.801 INFO    EDTERRAINGRAPHICS41: 0.000019s Loaded reference file "caucasus" buffers: 0
+2019-12-06 16:56:43.801 INFO    EDCORE: 0.000037 s  landscape4::lReferenceFile
+2019-12-06 16:56:44.159 INFO    EDTERRAINGRAPHICS41: 0.302467s Loaded reference file "airfieldslights" buffers: 7
+2019-12-06 16:56:44.159 INFO    EDCORE: 0.302481 s  landscape4::lReferenceFile
+2019-12-06 16:56:44.311 INFO    EDTERRAINGRAPHICS41: 0.143911s Loaded reference file "blockbuildings" buffers: 7
+2019-12-06 16:56:44.311 INFO    EDCORE: 0.143922 s  landscape4::lReferenceFile
+2019-12-06 16:56:44.377 INFO    EDTERRAINGRAPHICS41: 0.063993s Loaded reference file "blocktrees" buffers: 0
+2019-12-06 16:56:44.377 INFO    EDCORE: 0.064006 s  landscape4::lReferenceFile
+2019-12-06 16:56:44.727 INFO    EDTERRAINGRAPHICS41: 0.348548s Loaded reference file "caucasusafbbuildings_new" buffers: 27
+2019-12-06 16:56:44.727 INFO    EDCORE: 0.348562 s  landscape4::lReferenceFile
+2019-12-06 16:56:44.750 INFO    EDTERRAINGRAPHICS41: 0.020261s Loaded reference file "caucasusbridges" buffers: 11
+2019-12-06 16:56:44.750 INFO    EDCORE: 0.020281 s  landscape4::lReferenceFile
+2019-12-06 16:56:44.933 INFO    EDTERRAINGRAPHICS41: 0.140492s Loaded reference file "caucasusobjects" buffers: 0
+2019-12-06 16:56:44.933 INFO    EDCORE: 0.140503 s  landscape4::lReferenceFile
+2019-12-06 16:56:44.970 INFO    EDTERRAINGRAPHICS41: 0.034008s Loaded reference file "communication" buffers: 7
+2019-12-06 16:56:44.970 INFO    EDCORE: 0.034020 s  landscape4::lReferenceFile
+2019-12-06 16:56:45.003 INFO    EDTERRAINGRAPHICS41: 0.000230s Loaded reference file "crashmodels" buffers: 1
+2019-12-06 16:56:45.003 INFO    EDCORE: 0.000241 s  landscape4::lReferenceFile
+2019-12-06 16:56:45.166 INFO    EDTERRAINGRAPHICS41: 0.107998s Loaded reference file "crashmodelsfromedm" buffers: 22
+2019-12-06 16:56:45.166 INFO    EDCORE: 0.108010 s  landscape4::lReferenceFile
+2019-12-06 16:56:45.243 INFO    EDTERRAINGRAPHICS41: 0.073818s Loaded reference file "housedetails" buffers: 9
+2019-12-06 16:56:45.243 INFO    EDCORE: 0.073831 s  landscape4::lReferenceFile
+2019-12-06 16:56:45.249 INFO    EDTERRAINGRAPHICS41: 0.002311s Loaded reference file "industrial" buffers: 7
+2019-12-06 16:56:45.249 INFO    EDCORE: 0.002323 s  landscape4::lReferenceFile
+2019-12-06 16:56:45.476 INFO    EDTERRAINGRAPHICS41: 0.167440s Loaded reference file "misc" buffers: 3
+2019-12-06 16:56:45.476 INFO    EDCORE: 0.167455 s  landscape4::lReferenceFile
+2019-12-06 16:56:45.490 INFO    EDTERRAINGRAPHICS41: 0.003274s Loaded reference file "oilplatforms" buffers: 7
+2019-12-06 16:56:45.490 INFO    EDCORE: 0.003285 s  landscape4::lReferenceFile
+2019-12-06 16:56:45.552 INFO    EDTERRAINGRAPHICS41: 0.003078s Loaded reference file "tuapserefinery" buffers: 6
+2019-12-06 16:56:45.552 INFO    EDCORE: 0.003090 s  landscape4::lReferenceFile
+2019-12-06 16:56:45.607 INFO    EDTERRAINGRAPHICS41: 0.002681s Loaded reference file "vehicles" buffers: 9
+2019-12-06 16:56:45.607 INFO    EDCORE: 0.002698 s  landscape4::lReferenceFile
+2019-12-06 16:56:45.637 INFO    EDTERRAINGRAPHICS41: 0.002558s Loaded reference file "vessels" buffers: 7
+2019-12-06 16:56:45.637 INFO    EDCORE: 0.002571 s  landscape4::lReferenceFile
+2019-12-06 16:56:45.690 INFO    EDTERRAINGRAPHICS41: 0.035962s Loaded reference file "walls" buffers: 2
+2019-12-06 16:56:45.690 INFO    EDCORE: 0.035983 s  landscape4::lReferenceFile
+2019-12-06 16:56:45.747 INFO    EDTERRAINGRAPHICS41: 0.049600s Loaded reference file "americanbeech" buffers: 0
+2019-12-06 16:56:45.747 INFO    EDCORE: 0.049612 s  landscape4::lReferenceFile
+2019-12-06 16:56:45.754 INFO    EDTERRAINGRAPHICS41: 0.001130s Loaded reference file "caucasus_fir" buffers: 0
+2019-12-06 16:56:45.754 INFO    EDCORE: 0.001137 s  landscape4::lReferenceFile
+2019-12-06 16:56:45.787 INFO    EDTERRAINGRAPHICS41: 0.001169s Loaded reference file "cypress_oak" buffers: 0
+2019-12-06 16:56:45.787 INFO    EDCORE: 0.001178 s  landscape4::lReferenceFile
+2019-12-06 16:56:45.819 INFO    EDTERRAINGRAPHICS41: 0.001012s Loaded reference file "european_beech" buffers: 0
+2019-12-06 16:56:45.819 INFO    EDCORE: 0.001021 s  landscape4::lReferenceFile
+2019-12-06 16:56:45.839 INFO    EDTERRAINGRAPHICS41: 0.001010s Loaded reference file "green_ash" buffers: 0
+2019-12-06 16:56:45.839 INFO    EDCORE: 0.001019 s  landscape4::lReferenceFile
+2019-12-06 16:56:45.859 INFO    EDTERRAINGRAPHICS41: 0.001265s Loaded reference file "honey_mesquite" buffers: 0
+2019-12-06 16:56:45.859 INFO    EDCORE: 0.001274 s  landscape4::lReferenceFile
+2019-12-06 16:56:45.869 INFO    EDTERRAINGRAPHICS41: 0.001217s Loaded reference file "italiancypress" buffers: 0
+2019-12-06 16:56:45.869 INFO    EDCORE: 0.001225 s  landscape4::lReferenceFile
+2019-12-06 16:56:45.880 INFO    EDTERRAINGRAPHICS41: 0.001241s Loaded reference file "lombardypoplar" buffers: 0
+2019-12-06 16:56:45.880 INFO    EDCORE: 0.001251 s  landscape4::lReferenceFile
+2019-12-06 16:56:45.891 INFO    EDTERRAINGRAPHICS41: 0.001437s Loaded reference file "mountain_maple" buffers: 0
+2019-12-06 16:56:45.891 INFO    EDCORE: 0.001447 s  landscape4::lReferenceFile
+2019-12-06 16:56:45.902 INFO    EDTERRAINGRAPHICS41: 0.001556s Loaded reference file "norwayspruce" buffers: 0
+2019-12-06 16:56:45.902 INFO    EDCORE: 0.001564 s  landscape4::lReferenceFile
+2019-12-06 16:56:45.912 INFO    EDTERRAINGRAPHICS41: 0.000837s Loaded reference file "shrub" buffers: 0
+2019-12-06 16:56:45.912 INFO    EDCORE: 0.000845 s  landscape4::lReferenceFile
+2019-12-06 16:56:45.912 INFO    EDTERRAINGRAPHICS41: InstanceManager2 is completing initialization... 
+2019-12-06 16:56:45.916 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2019-12-06 16:56:45.916 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2019-12-06 16:56:45.917 INFO    EDTERRAINGRAPHICS41: InstanceManager2 complete initialization: 
+2019-12-06 16:56:45.917 INFO    EDTERRAINGRAPHICS41:   objects:    666
+2019-12-06 16:56:45.917 INFO    EDTERRAINGRAPHICS41:   subObjects: 493
+2019-12-06 16:56:45.917 INFO    EDTERRAINGRAPHICS41:   objectLods: 2913
+2019-12-06 16:56:45.917 INFO    EDTERRAINGRAPHICS41:   objectLodRenderItems: 335
+2019-12-06 16:56:45.917 INFO    EDTERRAINGRAPHICS41:   MAX_LODS_IN_OBJECT:       10
+2019-12-06 16:56:45.917 INFO    EDTERRAINGRAPHICS41:   MAX_SUBOBJECTS_IN_OBJECT: 74
+2019-12-06 16:56:45.917 INFO    EDTERRAINGRAPHICS41:   GEOMETRY BUFFERS: 132
+2019-12-06 16:56:45.956 INFO    EDCORE: 0.000005 s  landscape5::OceanFile
+2019-12-06 16:56:46.105 INFO    EDCORE: 0.127454 s  landscape5::GrassFile
+2019-12-06 16:56:46.111 INFO    EDCORE: 0.000001 s  landscape5::lModels5File
+2019-12-06 16:56:46.197 WARNING LOG: 1 duplicate message(s) skipped.
+2019-12-06 16:56:46.197 INFO    EDCORE: 0.000002 s  landscape5::lModels5File
+2019-12-06 16:56:46.245 WARNING LOG: 2 duplicate message(s) skipped.
+2019-12-06 16:56:46.245 INFO    EDCORE: 0.000001 s  landscape5::lModels5File
+2019-12-06 16:56:46.289 WARNING LOG: 3 duplicate message(s) skipped.
+2019-12-06 16:56:46.289 INFO    EDCORE: 0.000002 s  landscape5::lModels5File
+2019-12-06 16:56:46.311 WARNING LOG: 1 duplicate message(s) skipped.
+2019-12-06 16:56:46.311 INFO    EDCORE: 0.000001 s  landscape5::lModels5File
+2019-12-06 16:56:46.334 WARNING LOG: 1 duplicate message(s) skipped.
+2019-12-06 16:56:46.334 INFO    EDCORE: 0.000002 s  landscape5::lModels5File
+2019-12-06 16:56:46.356 WARNING LOG: 1 duplicate message(s) skipped.
+2019-12-06 16:56:46.356 INFO    EDCORE: 0.000001 s  landscape5::lModels5File
+2019-12-06 16:56:46.381 WARNING LOG: 1 duplicate message(s) skipped.
+2019-12-06 16:56:46.381 INFO    EDTERRAINGRAPHICS41: remapper.deformers is not empty
+2019-12-06 16:56:46.488 INFO    EDTERRAINGRAPHICS41: materialParams[34055]*1536
+2019-12-06 16:56:46.496 INFO    EDCORE: 0.117805 s  landscape5::Surface5File
+2019-12-06 16:56:46.504 INFO    EDTERRAINGRAPHICS41: materialParams[915]*1536
+2019-12-06 16:56:46.504 INFO    EDCORE: 0.003741 s  landscape5::SurfaceTile
+2019-12-06 16:56:46.534 INFO    EDCORE: 0.001539 s  landscape5::Scene5File
+2019-12-06 16:56:46.568 INFO    EDCORE: 0.005426 s  landscape4::lRoutesFile
+2019-12-06 16:56:46.585 INFO    EDCORE: 0.000014 s  landscape4::lSurfaceDetails2File
+2019-12-06 16:56:46.608 INFO    EDTERRAINGRAPHICS41: materialParams[1]*1536
+2019-12-06 16:56:46.608 INFO    EDCORE: 0.000478 s  landscape4::lSuperficialFile
+2019-12-06 16:56:46.619 INFO    EDCORE: 0.000202 s  landscape4::lGeoNamesFile
+2019-12-06 16:56:46.628 INFO    EDCORE: 0.000981 s  landscape5::sup5File
+2019-12-06 16:56:46.637 INFO    EDCORE: 0.000300 s  landscape5::sup5File
+2019-12-06 16:56:46.648 INFO    EDCORE: 0.000001 s  landscape5::navGraph5File
+2019-12-06 16:56:46.648 INFO    EDTERRAINGRAPHICS41: ITerrainGraphicsImpl4::openTerrain() END 3.552717 s
+2019-12-06 16:56:46.648 ERROR_ONCE DX11BACKEND: render target 'DummyShadowMap' not found
+2019-12-06 16:56:46.648 WARNING GRAPHICSCORE: already registered Renderer callback
+2019-12-06 16:56:46.663 INFO    VISUALIZER: StartSimulation
+2019-12-06 16:56:46.909 INFO    VISUALIZER: cascade shadows init (preset:'current' quality:0 layers:1 size:1)
+2019-12-06 16:56:46.922 ERROR_ONCE DX11BACKEND: render target 'fftw_foam' not found
+2019-12-06 16:56:48.149 ERROR_ONCE DX11BACKEND: texture 'LiquidAnimationNormals' not found. Asked from 'EFFECTS2'
+2019-12-06 16:56:48.150 ERROR_ONCE DX11BACKEND: texture 'LiquidAnimationAlphas' not found. Asked from 'EFFECTS2'
+2019-12-06 16:56:48.321 INFO    Dispatcher: initial random seed = 1408362
+2019-12-06 16:56:48.321 INFO    Dispatcher: apply random seed = 1408362
+2019-12-06 16:56:48.806 INFO    WORLDGENERAL: loaded from mission Scripts/World/GPS_GNSS.lua
+2019-12-06 16:56:49.662 INFO    WORLDGENERAL: loaded from mission Config/View/SnapViewsDefault.lua
+2019-12-06 16:56:49.669 INFO    WORLDGENERAL: loaded from mission Config/View/View.lua
+2019-12-06 16:56:49.675 INFO    WORLDGENERAL: loaded from mission Config/View/Server.lua
+2019-12-06 16:56:50.204 INFO    Config: netview started
+2019-12-06 16:56:51.626 INFO    NET: ready to start, waiting for sync
+2019-12-06 16:56:51.626 INFO    VISUALIZER: CameraIndependedPreload()
+2019-12-06 16:56:51.626 INFO    VISUALIZER: CameraIndependedPreload() finished
+2019-12-06 16:56:51.680 INFO    VISUALIZER: Preload() camera=0.000000, 2000.000000, 0.000000 radius=150000.000000
+2019-12-06 16:56:51.680 INFO    EDTERRAINGRAPHICS41: ITerrainGraphicsImpl4::forceLoading(): pos=(0, 2000, 0), radius=150000
+2019-12-06 16:56:52.194 INFO    EDTERRAINGRAPHICS41: surface5 clean up LOD 0: left 0  released 0
+2019-12-06 16:56:52.194 INFO    EDTERRAINGRAPHICS41: surface5 clean up LOD 1: left 0  released 0
+2019-12-06 16:56:52.194 INFO    EDTERRAINGRAPHICS41: surface5 clean up 0.065900 ms
+2019-12-06 16:56:53.973 INFO    EDTERRAINGRAPHICS41: forestDistanceFactor has been changed to 0.300000. Update lod buffers.
+2019-12-06 16:56:53.974 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2019-12-06 16:56:53.974 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2019-12-06 16:56:54.846 INFO    VISUALIZER: Preload() finished
+2019-12-06 16:56:54.858 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 0 4 squares
+2019-12-06 16:56:54.858 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 1 12 squares
+2019-12-06 16:56:54.858 INFO    EDTERRAINGRAPHICS41: surface5 gc() 0.269000 ms
+2019-12-06 16:56:54.860 INFO    EDTERRAINGRAPHICS41: forestDistanceFactor has been changed to 1.000000. Update lod buffers.
+2019-12-06 16:56:54.860 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2019-12-06 16:56:54.860 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2019-12-06 16:56:55.210 INFO    DCS: Screen: mission_online
+2019-12-06 16:56:55.210 INFO    Dispatcher: precache units resources in slots
+2019-12-06 16:56:59.511 ERROR   wInfo: negative weight of payload "{BRU-42_3*MK-20}"
+2019-12-06 16:57:02.908 ERROR   wInfo: negative weight of payload "{RBK_500_PTAB105_DUAL_L}"
+2019-12-06 16:57:02.909 ERROR   wInfo: negative weight of payload "{RBK_500_PTAB105_DUAL_R}"
+2019-12-06 16:57:03.473 ERROR   NGMODEL: The following exception was caught: Model has invalid bounding box.. During loading of: //models/f-14b_damageparts_stabilizer.edm.
+2019-12-06 16:57:05.419 ERROR   wInfo: negative weight of payload "LAU-115_2*LAU-127_CATM-9M"
+2019-12-06 16:57:06.960 INFO    Lua: Lua CPU usage: metric: average mission loading: 2.9063 %
+2019-12-06 16:57:06.960 INFO    Dispatcher: loadMission Done: Сontrol passed to the player
+2019-12-06 16:57:06.961 INFO    NET: sync seems good, telling server we are ready
+2019-12-06 16:57:07.315 INFO    NET: MsgClientInit(serverTime=14055.043373, modelTime=14037.341583)
+2019-12-06 16:57:07.315 INFO    NET: local time=308.315670, offset=13747.021248, error=0.005631, samples=121
+2019-12-06 16:57:07.315 INFO    NET: scheduled start at 308.016675
+2019-12-06 16:57:07.315 INFO    NET: MsgClientRun
+2019-12-06 16:57:07.315 INFO    DCS: use_xRay: no
+2019-12-06 16:57:09.138 INFO    DCS: MissionSpawn:initScript
+2019-12-06 16:57:09.307 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 0 0 squares
+2019-12-06 16:57:09.307 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 1 0 squares
+2019-12-06 16:57:09.307 INFO    EDTERRAINGRAPHICS41: surface5 gc() 0.041200 ms
+2019-12-06 16:57:11.928 INFO    TACVIEW.EXPORT: Loading C++ flight data recorder from [C:\Users\johna\Saved Games\DCS.openbeta\Mods\tech\Tacview\bin\]
+2019-12-06 16:57:11.928 INFO    TACVIEW.EXPORT: Tacview 1.8.0 C++ flight data recorder successfully loaded
+2019-12-06 16:57:18.040 ERROR   Lua::Config: Call error MarkPanel.show:[string "./dxgui/bind/Widget.lua"]:55: Invalid arguments!.
+2019-12-06 16:57:24.692 WARNING LOG: 5 duplicate message(s) skipped.
+2019-12-06 16:57:24.692 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_02: there is no connector with such name.
+2019-12-06 16:57:24.694 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'cvn74'
+2019-12-06 16:57:24.694 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'cvn74'
+2019-12-06 16:57:24.696 ERROR   woShip: Network: Carrier start positions number mismatch!!! Unit type:Stennis
+2019-12-06 16:57:24.712 WARNING EFFECTS2: BowwaveEmitter: unknown parameter
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_R_01: there is no connector with such name.
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_R_02: there is no connector with such name.
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_R_01: there is no connector with such name.
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_R_02: there is no connector with such name.
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Can't get the fire position connector FIRE_BACK_R: there is no connector with such name.
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_L_01: there is no connector with such name.
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_L_02: there is no connector with such name.
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_01: there is no connector with such name.
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_02: there is no connector with such name.
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Can't get the fire position connector FIRE_BACK_L: there is no connector with such name.
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_NOSE: there is no connector with such name.
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_MIDLE_01: there is no connector with such name.
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_MIDLE_02: there is no connector with such name.
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_BACK_01: there is no connector with such name.
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_BACK_02: there is no connector with such name.
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Can't get the fire position connector FIRE_RUBKA: there is no connector with such name.
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Invalid connector name (POINT_GUN_ZA_BL): unit type = LHA_Tarawa, ws id=2, ln id=1, br id=1
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Invalid connector name (Rocket_Point_01): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=1
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Invalid connector name (Rocket_Point_02): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=2
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Invalid connector name (Rocket_Point_03): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=3
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Invalid connector name (Rocket_Point_04): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=4
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Invalid connector name (Rocket_Point_05): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=5
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Invalid connector name (Rocket_Point_06): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=6
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Invalid connector name (Rocket_Point_07): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=7
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Invalid connector name (Rocket_Point_08): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=8
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Invalid connector name (Rocket_Point_20): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=1
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Invalid connector name (Rocket_Point_21): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=2
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Invalid connector name (Rocket_Point_22): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=3
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Invalid connector name (Rocket_Point_23): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=4
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Invalid connector name (Rocket_Point_24): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=5
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Invalid connector name (Rocket_Point_25): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=6
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Invalid connector name (Rocket_Point_26): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=7
+2019-12-06 16:57:24.886 ERROR   WEAPONS: Invalid connector name (Rocket_Point_27): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=8
+2019-12-06 16:57:24.886 ERROR   wWeaponSystem: invalid connector CENTER_RADAR_9 for unit LHA_Tarawa
+2019-12-06 16:57:24.886 ERROR   wWeaponSystem: invalid connector CENTER_RADAR_10 for unit LHA_Tarawa
+2019-12-06 16:57:24.886 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'lha_tarawa'
+2019-12-06 16:57:24.886 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'lha_tarawa'
+2019-12-06 16:57:24.886 ERROR   woShip: Network: Carrier start positions number mismatch!!! Unit type:LHA_Tarawa
+2019-12-06 16:57:24.893 WARNING EFFECTS2: BowwaveEmitter: unknown parameter
+2019-12-06 16:57:25.152 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'kuznecow'
+2019-12-06 16:57:25.152 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'kuznecow'
+2019-12-06 16:57:25.152 ERROR   woShip: Network: Carrier start positions number mismatch!!! Unit type:KUZNECOW
+2019-12-06 16:57:25.153 WARNING EFFECTS2: BowwaveEmitter: unknown parameter
+2019-12-06 16:57:25.155 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_R_01: there is no connector with such name.
+2019-12-06 16:57:25.155 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_R_02: there is no connector with such name.
+2019-12-06 16:57:25.155 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_R_01: there is no connector with such name.
+2019-12-06 16:57:25.155 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_R_02: there is no connector with such name.
+2019-12-06 16:57:25.155 ERROR   WEAPONS: Can't get the fire position connector FIRE_BACK_R: there is no connector with such name.
+2019-12-06 16:57:25.155 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_L_01: there is no connector with such name.
+2019-12-06 16:57:25.155 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_L_02: there is no connector with such name.
+2019-12-06 16:57:25.155 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_01: there is no connector with such name.
+2019-12-06 16:57:25.155 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_02: there is no connector with such name.
+2019-12-06 16:57:25.155 ERROR   WEAPONS: Can't get the fire position connector FIRE_BACK_L: there is no connector with such name.
+2019-12-06 16:57:25.155 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_NOSE: there is no connector with such name.
+2019-12-06 16:57:25.155 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_MIDLE_01: there is no connector with such name.
+2019-12-06 16:57:25.155 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_MIDLE_02: there is no connector with such name.
+2019-12-06 16:57:25.155 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_BACK_01: there is no connector with such name.
+2019-12-06 16:57:25.155 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_BACK_02: there is no connector with such name.
+2019-12-06 16:57:25.155 ERROR   WEAPONS: Can't get the fire position connector FIRE_RUBKA: there is no connector with such name.
+2019-12-06 16:57:25.156 ERROR   WEAPONS: Invalid connector name (POINT_GUN_ZA_BL): unit type = LHA_Tarawa, ws id=2, ln id=1, br id=1
+2019-12-06 16:57:25.156 ERROR   WEAPONS: Invalid connector name (Rocket_Point_01): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=1
+2019-12-06 16:57:25.156 ERROR   WEAPONS: Invalid connector name (Rocket_Point_02): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=2
+2019-12-06 16:57:25.156 ERROR   WEAPONS: Invalid connector name (Rocket_Point_03): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=3
+2019-12-06 16:57:25.156 ERROR   WEAPONS: Invalid connector name (Rocket_Point_04): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=4
+2019-12-06 16:57:25.156 ERROR   WEAPONS: Invalid connector name (Rocket_Point_05): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=5
+2019-12-06 16:57:25.156 ERROR   WEAPONS: Invalid connector name (Rocket_Point_06): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=6
+2019-12-06 16:57:25.156 ERROR   WEAPONS: Invalid connector name (Rocket_Point_07): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=7
+2019-12-06 16:57:25.156 ERROR   WEAPONS: Invalid connector name (Rocket_Point_08): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=8
+2019-12-06 16:57:25.156 ERROR   WEAPONS: Invalid connector name (Rocket_Point_20): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=1
+2019-12-06 16:57:25.156 ERROR   WEAPONS: Invalid connector name (Rocket_Point_21): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=2
+2019-12-06 16:57:25.156 ERROR   WEAPONS: Invalid connector name (Rocket_Point_22): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=3
+2019-12-06 16:57:25.156 ERROR   WEAPONS: Invalid connector name (Rocket_Point_23): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=4
+2019-12-06 16:57:25.156 ERROR   WEAPONS: Invalid connector name (Rocket_Point_24): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=5
+2019-12-06 16:57:25.156 ERROR   WEAPONS: Invalid connector name (Rocket_Point_25): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=6
+2019-12-06 16:57:25.156 ERROR   WEAPONS: Invalid connector name (Rocket_Point_26): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=7
+2019-12-06 16:57:25.156 ERROR   WEAPONS: Invalid connector name (Rocket_Point_27): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=8
+2019-12-06 16:57:25.156 ERROR   wWeaponSystem: invalid connector CENTER_RADAR_9 for unit LHA_Tarawa
+2019-12-06 16:57:25.156 ERROR   wWeaponSystem: invalid connector CENTER_RADAR_10 for unit LHA_Tarawa
+2019-12-06 16:57:25.156 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'lha_tarawa'
+2019-12-06 16:57:25.156 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'lha_tarawa'
+2019-12-06 16:57:25.156 ERROR   woShip: Network: Carrier start positions number mismatch!!! Unit type:LHA_Tarawa
+2019-12-06 16:57:25.158 WARNING EFFECTS2: BowwaveEmitter: unknown parameter
+2019-12-06 16:57:25.159 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_02: there is no connector with such name.
+2019-12-06 16:57:25.160 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'cvn74'
+2019-12-06 16:57:25.160 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'cvn74'
+2019-12-06 16:57:25.160 ERROR   woShip: Network: Carrier start positions number mismatch!!! Unit type:Stennis
+2019-12-06 16:57:25.162 WARNING EFFECTS2: BowwaveEmitter: unknown parameter
+2019-12-06 16:57:25.783 ERROR   EDCORE: Can't open file: /textures/liveries/e-2c/description.lua.
+2019-12-06 16:57:26.150 WARNING Mission: register_unit(7160,17268225) : db.units['7160'] table is missing
+2019-12-06 16:57:26.155 WARNING Mission: register_unit(7161,17268481) : db.units['7161'] table is missing
+2019-12-06 16:57:26.155 WARNING Mission: register_unit(7162,17268737) : db.units['7162'] table is missing
+2019-12-06 16:57:26.155 WARNING Mission: register_unit(7164,17269249) : db.units['7164'] table is missing
+2019-12-06 16:57:26.697 WARNING Mission: register_unit(7317,17327361) : db.units['7317'] table is missing
+2019-12-06 16:57:29.973 WARNING FLIGHT: NO ATC COMM HELIPAD + EK14:127500000
+2019-12-06 16:57:29.973 WARNING FLIGHT: NO ATC COMM HELIPAD + EJ98:127500000
+2019-12-06 16:57:29.973 WARNING FLIGHT: NO ATC COMM HELIPAD + FJ69:127500000
+2019-12-06 16:57:29.973 WARNING FLIGHT: NO ATC COMM HELIPAD + GJ22:127500000
+2019-12-06 16:57:29.973 WARNING FLIGHT: NO ATC COMM HELIPAD + GJ38:127500000
+2019-12-06 16:57:29.973 WARNING FLIGHT: NO ATC COMM HELIPAD + LP31:127500000
+2019-12-06 16:57:29.974 WARNING FLIGHT: NO ATC COMM HELIPAD + MP24:127500000
+2019-12-06 16:57:29.974 WARNING FLIGHT: NO ATC COMM HELIPAD + MN34:127500000
+2019-12-06 16:57:29.974 WARNING FLIGHT: NO ATC COMM HELIPAD + MN19:127500000
+2019-12-06 16:57:29.974 WARNING FLIGHT: NO ATC COMM HELIPAD + LP65:127500000
+2019-12-06 16:57:29.974 WARNING FLIGHT: NO ATC COMM HELIPAD + LP17:127500000
+2019-12-06 16:57:29.974 WARNING FLIGHT: NO ATC COMM HELIPAD + FJ95:127500000
+2019-12-06 16:57:29.974 WARNING FLIGHT: NO ATC COMM HELIPAD + EK51:127500000
+2019-12-06 16:57:29.974 WARNING FLIGHT: NO ATC COMM HELIPAD + DK65:127500000
+2019-12-06 16:57:29.974 WARNING FLIGHT: NO ATC COMM HELIPAD + KP74:127500000
+2019-12-06 16:57:29.974 WARNING FLIGHT: NO ATC COMM HELIPAD + FJ03:127500000
+2019-12-06 16:57:29.974 WARNING FLIGHT: NO ATC COMM HELIPAD + EK20:127500000
+2019-12-06 16:57:29.974 WARNING FLIGHT: NO ATC COMM HELIPAD + MN12:127500000
+2019-12-06 16:57:29.974 WARNING FLIGHT: NO ATC COMM HELIPAD + FJ53:127500000
+2019-12-06 16:57:29.974 WARNING FLIGHT: NO ATC COMM HELIPAD + EJ34:127500000
+2019-12-06 16:57:29.974 WARNING FLIGHT: NO ATC COMM HELIPAD + EJ08:127500000
+2019-12-06 16:57:29.974 WARNING FLIGHT: NO ATC COMM HELIPAD + DK61:127500000
+2019-12-06 16:57:29.974 WARNING FLIGHT: NO ATC COMM HELIPAD + KN76:127500000
+2019-12-06 16:57:29.974 WARNING FLIGHT: NO ATC COMM HELIPAD + LN90:127500000
+2019-12-06 16:57:29.974 WARNING FLIGHT: NO ATC COMM HELIPAD + MM25:127500000
+2019-12-06 16:57:29.974 WARNING FLIGHT: NO ATC COMM HELIPAD + LM56:127500000
+2019-12-06 16:57:29.974 WARNING FLIGHT: NO ATC COMM HELIPAD + LN21:127500000
+2019-12-06 16:57:29.974 WARNING FLIGHT: NO ATC COMM HELIPAD + MM75:127500000
+2019-12-06 16:57:29.974 WARNING FLIGHT: NO ATC COMM HELIPAD + MM69:127500000
+2019-12-06 16:57:29.974 WARNING FLIGHT: NO ATC COMM HELIPAD + GH03:127500000
+2019-12-06 16:57:29.975 WARNING FLIGHT: NO ATC COMM HELIPAD + KN53:127500000
+2019-12-06 16:57:29.975 WARNING FLIGHT: NO ATC COMM HELIPAD + KN70:127500000
+2019-12-06 16:57:29.975 WARNING FLIGHT: NO ATC COMM HELIPAD + GH17:127500000
+2019-12-06 16:57:29.975 WARNING FLIGHT: NO ATC COMM HELIPAD + LM95:127500000
+2019-12-06 16:57:29.975 WARNING FLIGHT: NO ATC COMM HELIPAD + GG19:127500000
+2019-12-06 16:57:29.975 WARNING FLIGHT: NO ATC COMM HELIPAD + LN16:127500000
+2019-12-06 16:57:29.975 WARNING FLIGHT: NO ATC COMM HELIPAD + MN61:127500000
+2019-12-06 16:57:34.258 INFO    EDTERRAINGRAPHICS41: forestDistanceFactor has been changed to 0.300000. Update lod buffers.
+2019-12-06 16:57:34.259 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2019-12-06 16:57:34.259 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2019-12-06 16:57:34.696 INFO    GRAPHICSVISTA: Creating Resource "Unicode" of type 1
+2019-12-06 16:57:35.873 ERROR   DX11BACKEND: Texture /textures/bmp-3_spec.dds is 3d but has depth == 1.
+2019-12-06 16:57:46.555 INFO    TACVIEW.DLL: Tacview is not installed on the host
+2019-12-06 16:57:46.577 INFO    TACVIEW.DLL: Recording flight data in [D:\Documents\Tacview\Tacview-20191206-115746-DCS-PVP-Dynamic-Persistent_Air_Ground_War_V.1.4.1.zip.acmi]
+2019-12-06 16:57:46.577 INFO    TACVIEW.DLL: Applying playback delay of 10 minutes to prevent cheating
+2019-12-06 16:57:55.232 INFO    DX11BACKEND: Unloaded 500 mb of textures.
+2019-12-06 16:59:46.866 ERROR   EFFECTS: ODCSParticleSystem: trying to set parameter for emitter that doesn't exists in shellExplosion.lua
+2019-12-06 16:59:55.232 WARNING LOG: 13 duplicate message(s) skipped.
+2019-12-06 16:59:55.232 INFO    DX11BACKEND: Unloaded 384 mb of textures.
+2019-12-06 17:00:23.432 ERROR   EFFECTS: ODCSParticleSystem: trying to set parameter for emitter that doesn't exists in shellExplosion.lua
+2019-12-06 17:01:02.276 WARNING LOG: 311 duplicate message(s) skipped.
+2019-12-06 17:01:02.276 INFO    VOICECHAT: -- Call set coalition --
+2019-12-06 17:01:08.256 INFO    DCS: MissionSpawn:spawnLocalPlayer artillery_commander_blue_1,artillery_commander
+2019-12-06 17:01:08.295 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 0 36 squares
+2019-12-06 17:01:08.297 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 1 36 squares
+2019-12-06 17:01:08.297 INFO    EDTERRAINGRAPHICS41: surface5 gc() 5.408400 ms
+2019-12-06 17:01:08.297 INFO    EDTERRAINGRAPHICS41: forestDistanceFactor has been changed to 1.000000. Update lod buffers.
+2019-12-06 17:01:08.297 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2019-12-06 17:01:08.298 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2019-12-06 17:01:55.217 INFO    DX11BACKEND: Unloaded 207 mb of textures.
+2019-12-06 17:02:27.682 INFO    NET: disconnected from server
+2019-12-06 17:02:27.682 INFO    Dispatcher: Stop
+2019-12-06 17:02:27.682 INFO    VOICECHAT: --- Stop VoiceChat services ---
+2019-12-06 17:02:27.682 INFO    VOICECHAT: --- Exit or Disconnect ---
+2019-12-06 17:02:27.698 INFO    NET: client has stopped
+2019-12-06 17:02:27.724 INFO    TACVIEW.DLL: End of flight data recording
+2019-12-06 17:02:30.591 INFO    Config: netview stopped
+2019-12-06 17:02:30.725 INFO    TERRAIN: lSystem::CleanScenes()
+2019-12-06 17:02:30.730 INFO    VISUALIZER: StopSimulation
+2019-12-06 17:02:30.732 INFO    VISUALIZER: Stopped collection of statistic.
+2019-12-06 17:02:30.744 INFO    EDCORE: (dDispatcher)enterToState_:3
+2019-12-06 17:02:32.317 INFO    NET: client has started
+2019-12-06 17:02:32.319 INFO    NET: Using LEDBAT for UDP congestion control.
+2019-12-06 17:03:32.596 INFO    DCS: Screen: Client
+2019-12-06 17:03:33.008 INFO    NET: connected to server
+2019-12-06 17:03:33.009 INFO    TACVIEW.DLL: Tacview Flight Data Recorder 1.8.0 Loaded
+2019-12-06 17:03:33.009 INFO    TACVIEW.DLL: Config={bookmarkShortcut=0, clientTelemetryPassword="", compressionLevel=1, dataRecordingEnabled=1, debugModeEnabled=0, hostTelemetryPassword="", playbackDelay=600, profilingPeriod=600, realTimeTelemetryPort=42674, recordClientsSessionsEnabled=0, remoteControlPassword="", remoteControlPort=42675}
+2019-12-06 17:05:31.482 INFO    Dispatcher: loadMission C:\Users\johna\Saved Games\DCS.openbeta\Tracks\Multiplayer\PVP-Dynamic-Persistent_Air_Ground_War_V.1.4.1-20191206-120333.trk
+2019-12-06 17:05:31.483 INFO    WORLDGENERAL: loading mission from: "C:\Users\johna\Saved Games\DCS.openbeta\Tracks\Multiplayer\PVP-Dynamic-Persistent_Air_Ground_War_V.1.4.1-20191206-120333.trk"
+2019-12-06 17:05:34.199 INFO    EDCORE: (dDispatcher)enterToState_:4
+2019-12-06 17:05:34.209 INFO    Dispatcher: Start
+2019-12-06 17:05:34.212 INFO    DCS: Screen: MainMenu
+2019-12-06 17:05:34.213 INFO    VOICECHAT: --- Stop VoiceChat services ---
+2019-12-06 17:05:34.213 INFO    VOICECHAT: --- New Mission or Change Mission ---
+2019-12-06 17:05:34.344 INFO    Dispatcher: Terrain theatre Caucasus
+2019-12-06 17:05:34.344 INFO    TERRAIN: lSystem::load(./Mods/terrains/Caucasus\terrain.cfg.lua)
+2019-12-06 17:05:34.344 INFO    TERRAIN: lSystem::CleanScenes()
+2019-12-06 17:05:34.344 INFO    TERRAIN: lSystem::InitScenes()
+2019-12-06 17:05:34.344 INFO    EDTERRAIN4: lTerraDispatchImpl::setDate( day=31, month=10)
+2019-12-06 17:05:34.377 WARNING GRAPHICSCORE: already registered Renderer callback
+2019-12-06 17:05:34.390 INFO    VISUALIZER: StartSimulation
+2019-12-06 17:05:34.628 INFO    VISUALIZER: cascade shadows init (preset:'current' quality:0 layers:1 size:1)
+2019-12-06 17:05:34.648 ERROR_ONCE DX11BACKEND: render target 'fftw_foam' not found
+2019-12-06 17:05:35.573 ERROR_ONCE DX11BACKEND: render target 'DummyShadowMap' not found
+2019-12-06 17:05:35.623 INFO    Dispatcher: initial random seed = 1935774
+2019-12-06 17:05:35.623 INFO    Dispatcher: apply random seed = 1935774
+2019-12-06 17:05:35.660 INFO    WORLDGENERAL: loaded from mission Scripts/World/GPS_GNSS.lua
+2019-12-06 17:05:36.539 INFO    WORLDGENERAL: loaded from mission Config/View/SnapViewsDefault.lua
+2019-12-06 17:05:36.540 INFO    WORLDGENERAL: loaded from mission Config/View/View.lua
+2019-12-06 17:05:36.540 INFO    WORLDGENERAL: loaded from mission Config/View/Server.lua
+2019-12-06 17:05:37.073 INFO    Config: netview started
+2019-12-06 17:05:37.086 INFO    NET: ready to start, waiting for sync
+2019-12-06 17:05:37.086 INFO    VISUALIZER: CameraIndependedPreload()
+2019-12-06 17:05:37.086 INFO    VISUALIZER: CameraIndependedPreload() finished
+2019-12-06 17:05:37.142 INFO    VISUALIZER: Preload() camera=-139544.531738, 25000.000000, 462809.242188 radius=150000.000000
+2019-12-06 17:05:37.142 INFO    EDTERRAINGRAPHICS41: ITerrainGraphicsImpl4::forceLoading(): pos=(-139545, 25000, 462809), radius=150000
+2019-12-06 17:05:37.702 INFO    EDTERRAINGRAPHICS41: surface5 clean up LOD 0: left 1  released 31
+2019-12-06 17:05:37.703 INFO    EDTERRAINGRAPHICS41: surface5 clean up LOD 1: left 7  released 58
+2019-12-06 17:05:37.703 INFO    EDTERRAINGRAPHICS41: surface5 clean up 2.256400 ms
+2019-12-06 17:05:37.909 INFO    EDTERRAINGRAPHICS41: forestDistanceFactor has been changed to 0.300000. Update lod buffers.
+2019-12-06 17:05:37.910 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2019-12-06 17:05:37.910 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2019-12-06 17:05:39.591 INFO    VISUALIZER: Preload() finished
+2019-12-06 17:05:39.662 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 0 41 squares
+2019-12-06 17:05:39.663 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 1 41 squares
+2019-12-06 17:05:39.663 INFO    EDTERRAINGRAPHICS41: surface5 gc() 3.703100 ms
+2019-12-06 17:05:39.665 INFO    EDTERRAINGRAPHICS41: forestDistanceFactor has been changed to 1.000000. Update lod buffers.
+2019-12-06 17:05:39.665 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2019-12-06 17:05:39.665 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2019-12-06 17:05:39.792 INFO    DCS: Screen: mission_online
+2019-12-06 17:05:39.811 INFO    Dispatcher: precache units resources in slots
+2019-12-06 17:05:39.856 INFO    Lua: Lua CPU usage: metric: average mission loading: 12.0341 %
+2019-12-06 17:05:39.856 INFO    Dispatcher: loadMission Done: Сontrol passed to the player
+2019-12-06 17:05:39.857 INFO    NET: sync seems good, telling server we are ready
+2019-12-06 17:05:40.203 INFO    NET: MsgClientInit(serverTime=168.118556, modelTime=150.292446)
+2019-12-06 17:05:40.203 INFO    NET: local time=821.203165, offset=-652.814441, error=0.006088, samples=120
+2019-12-06 17:05:40.203 INFO    NET: scheduled start at 820.933972
+2019-12-06 17:05:40.203 INFO    NET: MsgClientRun
+2019-12-06 17:05:40.203 INFO    DCS: use_xRay: no
+2019-12-06 17:05:40.799 INFO    DCS: MissionSpawn:initScript
+2019-12-06 17:05:40.960 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 0 1 squares
+2019-12-06 17:05:40.960 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 1 1 squares
+2019-12-06 17:05:40.960 INFO    EDTERRAINGRAPHICS41: surface5 gc() 0.382100 ms
+2019-12-06 17:05:43.882 INFO    TACVIEW.EXPORT: Loading C++ flight data recorder from [C:\Users\johna\Saved Games\DCS.openbeta\Mods\tech\Tacview\bin\]
+2019-12-06 17:05:43.944 INFO    TACVIEW.EXPORT: Tacview 1.8.0 C++ flight data recorder successfully loaded
+2019-12-06 17:05:51.980 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_02: there is no connector with such name.
+2019-12-06 17:05:51.981 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'cvn74'
+2019-12-06 17:05:51.981 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'cvn74'
+2019-12-06 17:05:51.981 ERROR   woShip: Network: Carrier start positions number mismatch!!! Unit type:Stennis
+2019-12-06 17:05:51.990 WARNING EFFECTS2: BowwaveEmitter: unknown parameter
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_R_01: there is no connector with such name.
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_R_02: there is no connector with such name.
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_R_01: there is no connector with such name.
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_R_02: there is no connector with such name.
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Can't get the fire position connector FIRE_BACK_R: there is no connector with such name.
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_L_01: there is no connector with such name.
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_L_02: there is no connector with such name.
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_01: there is no connector with such name.
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_02: there is no connector with such name.
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Can't get the fire position connector FIRE_BACK_L: there is no connector with such name.
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_NOSE: there is no connector with such name.
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_MIDLE_01: there is no connector with such name.
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_MIDLE_02: there is no connector with such name.
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_BACK_01: there is no connector with such name.
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_BACK_02: there is no connector with such name.
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Can't get the fire position connector FIRE_RUBKA: there is no connector with such name.
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Invalid connector name (POINT_GUN_ZA_BL): unit type = LHA_Tarawa, ws id=2, ln id=1, br id=1
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Invalid connector name (Rocket_Point_01): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=1
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Invalid connector name (Rocket_Point_02): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=2
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Invalid connector name (Rocket_Point_03): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=3
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Invalid connector name (Rocket_Point_04): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=4
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Invalid connector name (Rocket_Point_05): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=5
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Invalid connector name (Rocket_Point_06): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=6
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Invalid connector name (Rocket_Point_07): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=7
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Invalid connector name (Rocket_Point_08): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=8
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Invalid connector name (Rocket_Point_20): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=1
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Invalid connector name (Rocket_Point_21): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=2
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Invalid connector name (Rocket_Point_22): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=3
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Invalid connector name (Rocket_Point_23): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=4
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Invalid connector name (Rocket_Point_24): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=5
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Invalid connector name (Rocket_Point_25): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=6
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Invalid connector name (Rocket_Point_26): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=7
+2019-12-06 17:05:52.065 ERROR   WEAPONS: Invalid connector name (Rocket_Point_27): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=8
+2019-12-06 17:05:52.065 ERROR   wWeaponSystem: invalid connector CENTER_RADAR_9 for unit LHA_Tarawa
+2019-12-06 17:05:52.065 ERROR   wWeaponSystem: invalid connector CENTER_RADAR_10 for unit LHA_Tarawa
+2019-12-06 17:05:52.066 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'lha_tarawa'
+2019-12-06 17:05:52.066 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'lha_tarawa'
+2019-12-06 17:05:52.066 ERROR   woShip: Network: Carrier start positions number mismatch!!! Unit type:LHA_Tarawa
+2019-12-06 17:05:52.072 WARNING EFFECTS2: BowwaveEmitter: unknown parameter
+2019-12-06 17:05:52.328 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'kuznecow'
+2019-12-06 17:05:52.328 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'kuznecow'
+2019-12-06 17:05:52.328 ERROR   woShip: Network: Carrier start positions number mismatch!!! Unit type:KUZNECOW
+2019-12-06 17:05:52.329 WARNING EFFECTS2: BowwaveEmitter: unknown parameter
+2019-12-06 17:05:52.330 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_R_01: there is no connector with such name.
+2019-12-06 17:05:52.330 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_R_02: there is no connector with such name.
+2019-12-06 17:05:52.330 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_R_01: there is no connector with such name.
+2019-12-06 17:05:52.330 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_R_02: there is no connector with such name.
+2019-12-06 17:05:52.330 ERROR   WEAPONS: Can't get the fire position connector FIRE_BACK_R: there is no connector with such name.
+2019-12-06 17:05:52.330 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_L_01: there is no connector with such name.
+2019-12-06 17:05:52.330 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_L_02: there is no connector with such name.
+2019-12-06 17:05:52.330 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_01: there is no connector with such name.
+2019-12-06 17:05:52.330 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_02: there is no connector with such name.
+2019-12-06 17:05:52.330 ERROR   WEAPONS: Can't get the fire position connector FIRE_BACK_L: there is no connector with such name.
+2019-12-06 17:05:52.330 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_NOSE: there is no connector with such name.
+2019-12-06 17:05:52.330 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_MIDLE_01: there is no connector with such name.
+2019-12-06 17:05:52.330 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_MIDLE_02: there is no connector with such name.
+2019-12-06 17:05:52.330 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_BACK_01: there is no connector with such name.
+2019-12-06 17:05:52.330 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_BACK_02: there is no connector with such name.
+2019-12-06 17:05:52.330 ERROR   WEAPONS: Can't get the fire position connector FIRE_RUBKA: there is no connector with such name.
+2019-12-06 17:05:52.330 ERROR   WEAPONS: Invalid connector name (POINT_GUN_ZA_BL): unit type = LHA_Tarawa, ws id=2, ln id=1, br id=1
+2019-12-06 17:05:52.331 ERROR   WEAPONS: Invalid connector name (Rocket_Point_01): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=1
+2019-12-06 17:05:52.331 ERROR   WEAPONS: Invalid connector name (Rocket_Point_02): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=2
+2019-12-06 17:05:52.331 ERROR   WEAPONS: Invalid connector name (Rocket_Point_03): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=3
+2019-12-06 17:05:52.331 ERROR   WEAPONS: Invalid connector name (Rocket_Point_04): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=4
+2019-12-06 17:05:52.331 ERROR   WEAPONS: Invalid connector name (Rocket_Point_05): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=5
+2019-12-06 17:05:52.331 ERROR   WEAPONS: Invalid connector name (Rocket_Point_06): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=6
+2019-12-06 17:05:52.331 ERROR   WEAPONS: Invalid connector name (Rocket_Point_07): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=7
+2019-12-06 17:05:52.331 ERROR   WEAPONS: Invalid connector name (Rocket_Point_08): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=8
+2019-12-06 17:05:52.331 ERROR   WEAPONS: Invalid connector name (Rocket_Point_20): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=1
+2019-12-06 17:05:52.331 ERROR   WEAPONS: Invalid connector name (Rocket_Point_21): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=2
+2019-12-06 17:05:52.331 ERROR   WEAPONS: Invalid connector name (Rocket_Point_22): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=3
+2019-12-06 17:05:52.331 ERROR   WEAPONS: Invalid connector name (Rocket_Point_23): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=4
+2019-12-06 17:05:52.331 ERROR   WEAPONS: Invalid connector name (Rocket_Point_24): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=5
+2019-12-06 17:05:52.331 ERROR   WEAPONS: Invalid connector name (Rocket_Point_25): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=6
+2019-12-06 17:05:52.331 ERROR   WEAPONS: Invalid connector name (Rocket_Point_26): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=7
+2019-12-06 17:05:52.331 ERROR   WEAPONS: Invalid connector name (Rocket_Point_27): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=8
+2019-12-06 17:05:52.331 ERROR   wWeaponSystem: invalid connector CENTER_RADAR_9 for unit LHA_Tarawa
+2019-12-06 17:05:52.331 ERROR   wWeaponSystem: invalid connector CENTER_RADAR_10 for unit LHA_Tarawa
+2019-12-06 17:05:52.331 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'lha_tarawa'
+2019-12-06 17:05:52.331 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'lha_tarawa'
+2019-12-06 17:05:52.331 ERROR   woShip: Network: Carrier start positions number mismatch!!! Unit type:LHA_Tarawa
+2019-12-06 17:05:52.333 WARNING EFFECTS2: BowwaveEmitter: unknown parameter
+2019-12-06 17:05:52.335 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_02: there is no connector with such name.
+2019-12-06 17:05:52.336 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'cvn74'
+2019-12-06 17:05:52.336 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'cvn74'
+2019-12-06 17:05:52.336 ERROR   woShip: Network: Carrier start positions number mismatch!!! Unit type:Stennis
+2019-12-06 17:05:52.338 WARNING EFFECTS2: BowwaveEmitter: unknown parameter
+2019-12-06 17:05:52.507 WARNING FLIGHT: NO ATC COMM HELIPAD + EK14:127500000
+2019-12-06 17:05:52.507 WARNING FLIGHT: NO ATC COMM HELIPAD + EJ98:127500000
+2019-12-06 17:05:52.507 WARNING FLIGHT: NO ATC COMM HELIPAD + FJ69:127500000
+2019-12-06 17:05:52.507 WARNING FLIGHT: NO ATC COMM HELIPAD + GJ22:127500000
+2019-12-06 17:05:52.507 WARNING FLIGHT: NO ATC COMM HELIPAD + GJ38:127500000
+2019-12-06 17:05:52.507 WARNING FLIGHT: NO ATC COMM HELIPAD + LP31:127500000
+2019-12-06 17:05:52.507 WARNING FLIGHT: NO ATC COMM HELIPAD + MP24:127500000
+2019-12-06 17:05:52.507 WARNING FLIGHT: NO ATC COMM HELIPAD + MN34:127500000
+2019-12-06 17:05:52.507 WARNING FLIGHT: NO ATC COMM HELIPAD + MN19:127500000
+2019-12-06 17:05:52.508 WARNING FLIGHT: NO ATC COMM HELIPAD + LP65:127500000
+2019-12-06 17:05:52.508 WARNING FLIGHT: NO ATC COMM HELIPAD + LP17:127500000
+2019-12-06 17:05:52.508 WARNING FLIGHT: NO ATC COMM HELIPAD + FJ95:127500000
+2019-12-06 17:05:52.508 WARNING FLIGHT: NO ATC COMM HELIPAD + EK51:127500000
+2019-12-06 17:05:52.508 WARNING FLIGHT: NO ATC COMM HELIPAD + DK65:127500000
+2019-12-06 17:05:52.508 WARNING FLIGHT: NO ATC COMM HELIPAD + KP74:127500000
+2019-12-06 17:05:52.508 WARNING FLIGHT: NO ATC COMM HELIPAD + FJ03:127500000
+2019-12-06 17:05:52.508 WARNING FLIGHT: NO ATC COMM HELIPAD + EK20:127500000
+2019-12-06 17:05:52.508 WARNING FLIGHT: NO ATC COMM HELIPAD + MN12:127500000
+2019-12-06 17:05:52.508 WARNING FLIGHT: NO ATC COMM HELIPAD + FJ53:127500000
+2019-12-06 17:05:52.508 WARNING FLIGHT: NO ATC COMM HELIPAD + EJ34:127500000
+2019-12-06 17:05:52.508 WARNING FLIGHT: NO ATC COMM HELIPAD + EJ08:127500000
+2019-12-06 17:05:52.508 WARNING FLIGHT: NO ATC COMM HELIPAD + DK61:127500000
+2019-12-06 17:05:52.508 WARNING FLIGHT: NO ATC COMM HELIPAD + KN76:127500000
+2019-12-06 17:05:52.508 WARNING FLIGHT: NO ATC COMM HELIPAD + LN90:127500000
+2019-12-06 17:05:52.508 WARNING FLIGHT: NO ATC COMM HELIPAD + MM25:127500000
+2019-12-06 17:05:52.508 WARNING FLIGHT: NO ATC COMM HELIPAD + LM56:127500000
+2019-12-06 17:05:52.508 WARNING FLIGHT: NO ATC COMM HELIPAD + LN21:127500000
+2019-12-06 17:05:52.508 WARNING FLIGHT: NO ATC COMM HELIPAD + MM75:127500000
+2019-12-06 17:05:52.508 WARNING FLIGHT: NO ATC COMM HELIPAD + MM69:127500000
+2019-12-06 17:05:52.508 WARNING FLIGHT: NO ATC COMM HELIPAD + GH03:127500000
+2019-12-06 17:05:52.508 WARNING FLIGHT: NO ATC COMM HELIPAD + KN53:127500000
+2019-12-06 17:05:52.508 WARNING FLIGHT: NO ATC COMM HELIPAD + KN70:127500000
+2019-12-06 17:05:52.508 WARNING FLIGHT: NO ATC COMM HELIPAD + GH17:127500000
+2019-12-06 17:05:52.509 WARNING FLIGHT: NO ATC COMM HELIPAD + LM95:127500000
+2019-12-06 17:05:52.509 WARNING FLIGHT: NO ATC COMM HELIPAD + GG19:127500000
+2019-12-06 17:05:52.509 WARNING FLIGHT: NO ATC COMM HELIPAD + LN16:127500000
+2019-12-06 17:05:52.509 WARNING FLIGHT: NO ATC COMM HELIPAD + MN61:127500000
+2019-12-06 17:05:56.524 INFO    EDTERRAINGRAPHICS41: forestDistanceFactor has been changed to 0.300000. Update lod buffers.
+2019-12-06 17:05:56.524 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2019-12-06 17:05:56.524 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2019-12-06 17:05:56.858 ERROR   DX11BACKEND: Texture /textures/bmp-3_spec.dds is 3d but has depth == 1.
+2019-12-06 17:06:06.917 INFO    TACVIEW.DLL: Tacview is not installed on the host
+2019-12-06 17:06:06.933 INFO    TACVIEW.DLL: Recording flight data in [D:\Documents\Tacview\Tacview-20191206-120607-DCS-PVP-Dynamic-Persistent_Air_Ground_War_V.1.4.1.zip.acmi]
+2019-12-06 17:06:06.933 INFO    TACVIEW.DLL: Applying playback delay of 10 minutes to prevent cheating
+2019-12-06 17:06:14.626 INFO    VOICECHAT: -- Call set coalition --
+2019-12-06 17:06:19.486 INFO    DCS: MissionSpawn:spawnLocalPlayer artillery_commander_blue_1,artillery_commander
+2019-12-06 17:06:19.510 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 0 36 squares
+2019-12-06 17:06:19.512 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 1 36 squares
+2019-12-06 17:06:19.512 INFO    EDTERRAINGRAPHICS41: surface5 gc() 4.873700 ms
+2019-12-06 17:06:19.513 INFO    EDTERRAINGRAPHICS41: forestDistanceFactor has been changed to 1.000000. Update lod buffers.
+2019-12-06 17:06:19.513 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2019-12-06 17:06:19.513 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2019-12-06 17:07:02.969 INFO    VOICECHAT: -- Call set coalition --
+2019-12-06 17:07:20.512 INFO    DCS: MissionSpawn:spawnLocalPlayer artillery_commander_blue_1,artillery_commander
+2019-12-06 17:07:39.815 INFO    DX11BACKEND: Unloaded 33 mb of textures.
+2019-12-06 17:09:19.181 INFO    VOICECHAT: -- Call set coalition --
+2019-12-06 17:09:39.831 WARNING LOG: 1 duplicate message(s) skipped.
+2019-12-06 17:09:39.831 INFO    DX11BACKEND: Unloaded 326 mb of textures.
+2019-12-06 17:09:43.701 INFO    DCS: MissionSpawn:spawnLocalPlayer 10627,UH-1H
+2019-12-06 17:09:44.238 ERROR   COCKPITBASE: devices_keeper::link_all: unable to find link source 'networkSynchronizer' for device 'HYDRO_SYS_INTERFACE'
+2019-12-06 17:09:45.038 INFO    COCKPITBASE: lua state still active VHF_ARC_134, 20
+2019-12-06 17:09:45.038 INFO    COCKPITBASE: lua state still active INTERCOM, 21 (status undefined)
+2019-12-06 17:09:45.038 INFO    COCKPITBASE: lua state still active UHF_ARC_51, 22
+2019-12-06 17:09:45.038 INFO    COCKPITBASE: lua state still active VHF_ARC_131, 23
+2019-12-06 17:09:45.040 INFO    COCKPITBASE: lua state still active MACROS, 42 (status undefined)
+2019-12-06 17:09:45.041 INFO    COCKPITBASE: lua state still active EXTERNAL_CARGO_VIEW, 51 (status undefined)
+2019-12-06 17:09:45.065 INFO    WORLDGENERAL: loaded from mission Scripts/World/birds.lua
+2019-12-06 17:09:45.066 INFO    DCS: dbox not found , skip
+2019-12-06 17:09:45.369 INFO    EDTERRAINGRAPHICS41: forestDistanceFactor has been changed to 0.300000. Update lod buffers.
+2019-12-06 17:09:45.370 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2019-12-06 17:09:45.370 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2019-12-06 17:09:49.575 WARNING DXGUI: Invalid blur type!
+2019-12-06 17:11:39.817 INFO    DX11BACKEND: Unloaded 8 mb of textures.
+2019-12-06 17:12:30.396 INFO    EDTERRAINGRAPHICS41: forestDistanceFactor has been changed to 1.000000. Update lod buffers.
+2019-12-06 17:12:30.397 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2019-12-06 17:12:30.397 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2019-12-06 17:12:34.685 INFO    EDTERRAINGRAPHICS41: forestDistanceFactor has been changed to 0.300000. Update lod buffers.
+2019-12-06 17:12:34.685 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2019-12-06 17:12:34.685 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2019-12-06 17:12:53.421 INFO    EDTERRAINGRAPHICS41: forestDistanceFactor has been changed to 1.000000. Update lod buffers.
+2019-12-06 17:12:53.421 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2019-12-06 17:12:53.421 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2019-12-06 17:12:54.744 INFO    EDTERRAINGRAPHICS41: forestDistanceFactor has been changed to 0.300000. Update lod buffers.
+2019-12-06 17:12:54.744 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2019-12-06 17:12:54.744 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2019-12-06 17:13:04.649 INFO    EDTERRAINGRAPHICS41: forestDistanceFactor has been changed to 1.000000. Update lod buffers.
+2019-12-06 17:13:04.649 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2019-12-06 17:13:04.649 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2019-12-06 17:13:05.790 INFO    EDTERRAINGRAPHICS41: forestDistanceFactor has been changed to 0.300000. Update lod buffers.
+2019-12-06 17:13:05.790 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2019-12-06 17:13:05.790 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2019-12-06 17:13:39.821 INFO    DX11BACKEND: Unloaded 103 mb of textures.
+2019-12-06 17:14:41.963 WARNING Mission: register_unit(7215,17282305) : db.units['7215'] table is missing
+2019-12-06 17:15:10.837 INFO    EDTERRAINGRAPHICS41: forestDistanceFactor has been changed to 1.000000. Update lod buffers.
+2019-12-06 17:15:10.837 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2019-12-06 17:15:10.837 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2019-12-06 17:15:28.052 INFO    EDTERRAINGRAPHICS41: forestDistanceFactor has been changed to 0.300000. Update lod buffers.
+2019-12-06 17:15:28.052 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2019-12-06 17:15:28.052 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2019-12-06 17:15:39.812 INFO    DX11BACKEND: Unloaded 22 mb of textures.
+2019-12-06 17:15:39.962 INFO    TACVIEW.DLL: During the last 600.0s an average of 0 units objects and 0 ballistic objects have been active per frame
+2019-12-06 17:15:39.962 INFO    TACVIEW.DLL: The average frame rate of 38.8fps would have been 39.0fps if the flight data recorder was disabled
+2019-12-06 17:15:39.962 INFO    TACVIEW.DLL: DCS World simulation is taking 99.4% of CPU
+2019-12-06 17:15:39.962 INFO    TACVIEW.DLL:  DCS GetWorldObjects is taking  0.0% of CPU
+2019-12-06 17:15:39.962 INFO    TACVIEW.DLL:     Tacview recorder is taking  0.5% of CPU
+2019-12-06 17:17:39.806 INFO    DX11BACKEND: Unloaded 158 mb of textures.
+2019-12-06 17:19:39.807 INFO    DX11BACKEND: Unloaded 94 mb of textures.
+2019-12-06 17:21:39.829 INFO    DX11BACKEND: Unloaded 0 mb of textures.
+2019-12-06 17:23:35.720 ERROR   EFFECTS: ODCSParticleSystem: trying to set parameter for emitter that doesn't exists in shellExplosion.lua
+2019-12-06 17:23:38.773 WARNING Mission: register_unit(FOB #1227,17282561) : db.units['FOB #1227'] table is missing
+2019-12-06 17:23:39.811 INFO    DX11BACKEND: Unloaded 20 mb of textures.
+2019-12-06 17:25:39.828 INFO    DX11BACKEND: Unloaded 210 mb of textures.
+2019-12-06 17:25:39.970 INFO    TACVIEW.DLL: During the last 600.0s an average of 1 units objects and 0 ballistic objects have been active per frame
+2019-12-06 17:25:39.970 INFO    TACVIEW.DLL: The average frame rate of 31.9fps would have been 32.2fps if the flight data recorder was disabled
+2019-12-06 17:25:39.970 INFO    TACVIEW.DLL: DCS World simulation is taking 99.3% of CPU
+2019-12-06 17:25:39.970 INFO    TACVIEW.DLL:  DCS GetWorldObjects is taking  0.0% of CPU
+2019-12-06 17:25:39.970 INFO    TACVIEW.DLL:     Tacview recorder is taking  0.7% of CPU
+2019-12-06 17:26:38.189 WARNING Mission: register_unit(Leopard 1A3 #1230,17283329) : db.units['Leopard 1A3 #1230'] table is missing
+2019-12-06 17:27:58.771 ERROR   EFFECTS: ODCSParticleSystem: trying to set parameter for emitter that doesn't exists in shellExplosion.lua
+2019-12-06 17:28:09.856 WARNING LOG: 5 duplicate message(s) skipped.
+2019-12-06 17:28:09.856 INFO    WORLDGENERAL: ADD NEW BULLET SOFT BODY
+2019-12-06 17:28:09.856 INFO    WORLDGENERAL: ADD NEW BULLET RIGID BODY
+2019-12-06 17:28:12.948 WARNING LOG: 2 duplicate message(s) skipped.
+2019-12-06 17:28:12.948 INFO    WORLDGENERAL: ADD NEW BULLET CONSTRAINT
+2019-12-06 17:28:14.987 ERROR   EFFECTS: ODCSParticleSystem: trying to set parameter for emitter that doesn't exists in shellExplosion.lua
+2019-12-06 17:28:14.988 ERROR   SOUND: can't load wave: "sounds\speech\sound\eng\common\external cargo\messages\cargo_hooked"
+2019-12-06 17:28:15.114 ERROR   EFFECTS: ODCSParticleSystem: trying to set parameter for emitter that doesn't exists in shellExplosion.lua
+2019-12-06 17:28:39.830 WARNING LOG: 71 duplicate message(s) skipped.
+2019-12-06 17:28:39.830 INFO    DX11BACKEND: Unloaded 168 mb of textures.
+2019-12-06 17:28:56.072 ERROR   EFFECTS: ODCSParticleSystem: trying to set parameter for emitter that doesn't exists in shellExplosion.lua
+2019-12-06 17:29:22.395 WARNING LOG: 45 duplicate message(s) skipped.
+2019-12-06 17:29:22.395 ERROR   SOUND: can't load wave: "sounds\speech\sound\eng\common\external cargo\messages\rope_near_luke"
+2019-12-06 17:29:40.792 ERROR   EFFECTS: ODCSParticleSystem: trying to set parameter for emitter that doesn't exists in shellExplosion.lua
+2019-12-06 17:29:43.307 WARNING LOG: 21 duplicate message(s) skipped.
+2019-12-06 17:29:43.307 ERROR   SOUND: can't load wave: "sounds\speech\sound\eng\common\external cargo\messages\sixty_to_ground"
+2019-12-06 17:29:43.339 ERROR   EFFECTS: ODCSParticleSystem: trying to set parameter for emitter that doesn't exists in shellExplosion.lua
+2019-12-06 17:29:54.327 ERROR   SOUND: can't load wave: "sounds\speech\sound\eng\common\external cargo\messages\thirty_to_ground"
+2019-12-06 17:30:20.130 INFO    WORLDGENERAL: REMOVE BULLET RIGID BODY
+2019-12-06 17:30:20.130 WARNING LOG: 1 duplicate message(s) skipped.
+2019-12-06 17:30:20.130 INFO    WORLDGENERAL: ADD NEW BULLET CONSTRAINT
+2019-12-06 17:30:20.130 INFO    WORLDGENERAL: REMOVE BULLET RIGID BODY
+2019-12-06 17:30:20.130 INFO    WORLDGENERAL: REMOVE BULLET SOFT BODY
+2019-12-06 17:30:20.134 ERROR   SOUND: can't load wave: "sounds\speech\sound\eng\common\external cargo\messages\cargo_is_unhooked"
+2019-12-06 17:30:39.815 INFO    DX11BACKEND: Unloaded 6 mb of textures.
+2019-12-06 17:31:18.804 INFO    VOICECHAT: -- Call set coalition --
+2019-12-06 17:31:24.060 INFO    DCS: MissionSpawn:spawnLocalPlayer artillery_commander_blue_1,artillery_commander
+2019-12-06 17:31:24.083 INFO    EDTERRAINGRAPHICS41: forestDistanceFactor has been changed to 1.000000. Update lod buffers.
+2019-12-06 17:31:24.084 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2019-12-06 17:31:24.084 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2019-12-06 17:31:46.316 ERROR   EFFECTS: ODCSParticleSystem: trying to set parameter for emitter that doesn't exists in shellExplosion.lua
+2019-12-06 17:32:39.823 WARNING LOG: 22 duplicate message(s) skipped.
+2019-12-06 17:32:39.823 INFO    DX11BACKEND: Unloaded 64 mb of textures.
+2019-12-06 17:32:39.995 INFO    VOICECHAT: -- Call set coalition --
+2019-12-06 17:34:39.794 INFO    DX11BACKEND: Unloaded 484 mb of textures.
+2019-12-06 17:35:39.986 INFO    TACVIEW.DLL: During the last 600.0s an average of 0 units objects and 0 ballistic objects have been active per frame
+2019-12-06 17:35:39.986 INFO    TACVIEW.DLL: The average frame rate of 35.1fps would have been 35.2fps if the flight data recorder was disabled
+2019-12-06 17:35:39.986 INFO    TACVIEW.DLL: DCS World simulation is taking 99.6% of CPU
+2019-12-06 17:35:39.986 INFO    TACVIEW.DLL:  DCS GetWorldObjects is taking  0.0% of CPU
+2019-12-06 17:35:39.986 INFO    TACVIEW.DLL:     Tacview recorder is taking  0.4% of CPU
+2019-12-06 17:36:39.808 INFO    DX11BACKEND: Unloaded 0 mb of textures.
+2019-12-06 17:43:11.276 INFO    VOICECHAT: -- Call set coalition --
+2019-12-06 17:43:44.231 WARNING LOG: 2 duplicate message(s) skipped.
+2019-12-06 17:43:44.231 INFO    NET: disconnected: 0 
+2019-12-06 17:43:44.232 INFO    NET: disconnected from server
+2019-12-06 17:43:44.248 INFO    NET: client has stopped
+2019-12-06 17:43:45.250 INFO    Dispatcher: Stop
+2019-12-06 17:43:45.250 INFO    VOICECHAT: --- Stop VoiceChat services ---
+2019-12-06 17:43:45.250 INFO    VOICECHAT: --- Exit or Disconnect ---
+2019-12-06 17:43:45.271 INFO    TACVIEW.DLL: End of flight data recording
+2019-12-06 17:43:54.715 INFO    Config: netview stopped
+2019-12-06 17:43:54.850 INFO    TERRAIN: lSystem::CleanScenes()
+2019-12-06 17:43:54.855 INFO    VISUALIZER: StopSimulation
+2019-12-06 17:43:54.856 INFO    VISUALIZER: Stopped collection of statistic.
+2019-12-06 17:43:54.862 INFO    EDCORE: (dDispatcher)enterToState_:3
+2019-12-06 17:43:55.489 INFO    NET: client has started
+2019-12-06 17:43:55.492 INFO    NET: Using LEDBAT for UDP congestion control.
+2019-12-06 17:44:44.466 INFO    DCS: Screen: Client
+2019-12-06 17:44:44.837 INFO    NET: connected to server
+2019-12-06 17:44:44.839 INFO    TACVIEW.DLL: Tacview Flight Data Recorder 1.8.0 Loaded
+2019-12-06 17:44:44.839 INFO    TACVIEW.DLL: Config={bookmarkShortcut=0, clientTelemetryPassword="", compressionLevel=1, dataRecordingEnabled=1, debugModeEnabled=0, hostTelemetryPassword="", playbackDelay=600, profilingPeriod=600, realTimeTelemetryPort=42674, recordClientsSessionsEnabled=0, remoteControlPassword="", remoteControlPort=42675}
+2019-12-06 17:46:32.831 INFO    Dispatcher: loadMission C:\Users\johna\Saved Games\DCS.openbeta\Tracks\Multiplayer\PVP-Dynamic-Persistent_Air_Ground_War_V.1.4.1-20191206-124445.trk
+2019-12-06 17:46:32.832 INFO    WORLDGENERAL: loading mission from: "C:\Users\johna\Saved Games\DCS.openbeta\Tracks\Multiplayer\PVP-Dynamic-Persistent_Air_Ground_War_V.1.4.1-20191206-124445.trk"
+2019-12-06 17:46:36.193 INFO    EDCORE: (dDispatcher)enterToState_:4
+2019-12-06 17:46:36.201 INFO    Dispatcher: Start
+2019-12-06 17:46:36.204 INFO    DCS: Screen: MainMenu
+2019-12-06 17:46:36.204 INFO    VOICECHAT: --- Stop VoiceChat services ---
+2019-12-06 17:46:36.204 INFO    VOICECHAT: --- New Mission or Change Mission ---
+2019-12-06 17:46:36.335 INFO    Dispatcher: Terrain theatre Caucasus
+2019-12-06 17:46:36.336 INFO    TERRAIN: lSystem::load(./Mods/terrains/Caucasus\terrain.cfg.lua)
+2019-12-06 17:46:36.336 INFO    TERRAIN: lSystem::CleanScenes()
+2019-12-06 17:46:36.336 INFO    TERRAIN: lSystem::InitScenes()
+2019-12-06 17:46:36.336 INFO    EDTERRAIN4: lTerraDispatchImpl::setDate( day=31, month=10)
+2019-12-06 17:46:36.344 WARNING GRAPHICSCORE: already registered Renderer callback
+2019-12-06 17:46:36.358 INFO    VISUALIZER: StartSimulation
+2019-12-06 17:46:36.598 INFO    VISUALIZER: cascade shadows init (preset:'current' quality:0 layers:1 size:1)
+2019-12-06 17:46:36.603 ERROR_ONCE DX11BACKEND: render target 'fftw_foam' not found
+2019-12-06 17:46:36.975 ERROR_ONCE DX11BACKEND: render target 'DummyShadowMap' not found
+2019-12-06 17:46:36.979 INFO    Dispatcher: initial random seed = 4397176
+2019-12-06 17:46:36.979 INFO    Dispatcher: apply random seed = 4397176
+2019-12-06 17:46:37.017 INFO    WORLDGENERAL: loaded from mission Scripts/World/GPS_GNSS.lua
+2019-12-06 17:46:37.634 INFO    WORLDGENERAL: loaded from mission Config/View/SnapViewsDefault.lua
+2019-12-06 17:46:37.634 INFO    WORLDGENERAL: loaded from mission Config/View/View.lua
+2019-12-06 17:46:37.635 INFO    WORLDGENERAL: loaded from mission Config/View/Server.lua
+2019-12-06 17:46:37.805 INFO    Config: netview started
+2019-12-06 17:46:37.813 INFO    NET: ready to start, waiting for sync
+2019-12-06 17:46:37.813 INFO    VISUALIZER: CameraIndependedPreload()
+2019-12-06 17:46:37.814 INFO    VISUALIZER: CameraIndependedPreload() finished
+2019-12-06 17:46:37.877 INFO    VISUALIZER: Preload() camera=11696.719727, 8358.585038, 369506.296875 radius=150000.000000
+2019-12-06 17:46:37.877 INFO    EDTERRAINGRAPHICS41: ITerrainGraphicsImpl4::forceLoading(): pos=(11696.7, 8358.59, 369506), radius=150000
+2019-12-06 17:46:38.538 INFO    EDTERRAINGRAPHICS41: surface5 clean up LOD 0: left 6  released 50
+2019-12-06 17:46:38.541 INFO    EDTERRAINGRAPHICS41: surface5 clean up LOD 1: left 9  released 95
+2019-12-06 17:46:38.542 INFO    EDTERRAINGRAPHICS41: surface5 clean up 7.180200 ms
+2019-12-06 17:46:38.780 INFO    EDTERRAINGRAPHICS41: forestDistanceFactor has been changed to 0.300000. Update lod buffers.
+2019-12-06 17:46:38.780 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2019-12-06 17:46:38.780 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2019-12-06 17:46:39.704 INFO    VISUALIZER: Preload() finished
+2019-12-06 17:46:39.717 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 0 7 squares
+2019-12-06 17:46:39.718 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 1 12 squares
+2019-12-06 17:46:39.718 INFO    EDTERRAINGRAPHICS41: surface5 gc() 1.815500 ms
+2019-12-06 17:46:39.719 INFO    EDTERRAINGRAPHICS41: forestDistanceFactor has been changed to 1.000000. Update lod buffers.
+2019-12-06 17:46:39.719 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2019-12-06 17:46:39.719 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2019-12-06 17:46:39.760 INFO    DCS: Screen: mission_online
+2019-12-06 17:46:39.788 INFO    Dispatcher: precache units resources in slots
+2019-12-06 17:46:39.792 INFO    Lua: Lua CPU usage: metric: average mission loading: 6.9316 %
+2019-12-06 17:46:39.792 INFO    Dispatcher: loadMission Done: Сontrol passed to the player
+2019-12-06 17:46:39.793 INFO    NET: sync seems good, telling server we are ready
+2019-12-06 17:46:40.134 INFO    NET: MsgClientInit(serverTime=2628.099403, modelTime=2610.273293)
+2019-12-06 17:46:40.134 INFO    NET: local time=3281.134157, offset=-652.774007, error=0.005837, samples=109
+2019-12-06 17:46:40.134 INFO    NET: scheduled start at 3280.874519
+2019-12-06 17:46:40.134 INFO    NET: MsgClientRun
+2019-12-06 17:46:40.134 INFO    DCS: use_xRay: no
+2019-12-06 17:46:40.635 INFO    DCS: MissionSpawn:initScript
+2019-12-06 17:46:40.764 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 0 0 squares
+2019-12-06 17:46:40.764 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 1 0 squares
+2019-12-06 17:46:40.764 INFO    EDTERRAINGRAPHICS41: surface5 gc() 0.043000 ms
+2019-12-06 17:46:43.418 INFO    TACVIEW.EXPORT: Loading C++ flight data recorder from [C:\Users\johna\Saved Games\DCS.openbeta\Mods\tech\Tacview\bin\]
+2019-12-06 17:46:43.418 INFO    TACVIEW.EXPORT: Tacview 1.8.0 C++ flight data recorder successfully loaded
+2019-12-06 17:46:51.803 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_02: there is no connector with such name.
+2019-12-06 17:46:51.803 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'cvn74'
+2019-12-06 17:46:51.803 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'cvn74'
+2019-12-06 17:46:51.804 ERROR   woShip: Network: Carrier start positions number mismatch!!! Unit type:Stennis
+2019-12-06 17:46:51.807 WARNING EFFECTS2: BowwaveEmitter: unknown parameter
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_R_01: there is no connector with such name.
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_R_02: there is no connector with such name.
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_R_01: there is no connector with such name.
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_R_02: there is no connector with such name.
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Can't get the fire position connector FIRE_BACK_R: there is no connector with such name.
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_L_01: there is no connector with such name.
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_L_02: there is no connector with such name.
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_01: there is no connector with such name.
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_02: there is no connector with such name.
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Can't get the fire position connector FIRE_BACK_L: there is no connector with such name.
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_NOSE: there is no connector with such name.
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_MIDLE_01: there is no connector with such name.
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_MIDLE_02: there is no connector with such name.
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_BACK_01: there is no connector with such name.
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_BACK_02: there is no connector with such name.
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Can't get the fire position connector FIRE_RUBKA: there is no connector with such name.
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Invalid connector name (POINT_GUN_ZA_BL): unit type = LHA_Tarawa, ws id=2, ln id=1, br id=1
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Invalid connector name (Rocket_Point_01): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=1
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Invalid connector name (Rocket_Point_02): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=2
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Invalid connector name (Rocket_Point_03): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=3
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Invalid connector name (Rocket_Point_04): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=4
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Invalid connector name (Rocket_Point_05): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=5
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Invalid connector name (Rocket_Point_06): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=6
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Invalid connector name (Rocket_Point_07): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=7
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Invalid connector name (Rocket_Point_08): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=8
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Invalid connector name (Rocket_Point_20): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=1
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Invalid connector name (Rocket_Point_21): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=2
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Invalid connector name (Rocket_Point_22): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=3
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Invalid connector name (Rocket_Point_23): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=4
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Invalid connector name (Rocket_Point_24): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=5
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Invalid connector name (Rocket_Point_25): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=6
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Invalid connector name (Rocket_Point_26): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=7
+2019-12-06 17:46:51.917 ERROR   WEAPONS: Invalid connector name (Rocket_Point_27): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=8
+2019-12-06 17:46:51.917 ERROR   wWeaponSystem: invalid connector CENTER_RADAR_9 for unit LHA_Tarawa
+2019-12-06 17:46:51.917 ERROR   wWeaponSystem: invalid connector CENTER_RADAR_10 for unit LHA_Tarawa
+2019-12-06 17:46:51.917 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'lha_tarawa'
+2019-12-06 17:46:51.917 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'lha_tarawa'
+2019-12-06 17:46:51.917 ERROR   woShip: Network: Carrier start positions number mismatch!!! Unit type:LHA_Tarawa
+2019-12-06 17:46:51.922 WARNING EFFECTS2: BowwaveEmitter: unknown parameter
+2019-12-06 17:46:51.966 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'kuznecow'
+2019-12-06 17:46:51.966 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'kuznecow'
+2019-12-06 17:46:51.966 ERROR   woShip: Network: Carrier start positions number mismatch!!! Unit type:KUZNECOW
+2019-12-06 17:46:51.968 WARNING EFFECTS2: BowwaveEmitter: unknown parameter
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_R_01: there is no connector with such name.
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_R_02: there is no connector with such name.
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_R_01: there is no connector with such name.
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_R_02: there is no connector with such name.
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Can't get the fire position connector FIRE_BACK_R: there is no connector with such name.
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_L_01: there is no connector with such name.
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_L_02: there is no connector with such name.
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_01: there is no connector with such name.
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_02: there is no connector with such name.
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Can't get the fire position connector FIRE_BACK_L: there is no connector with such name.
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_NOSE: there is no connector with such name.
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_MIDLE_01: there is no connector with such name.
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_MIDLE_02: there is no connector with such name.
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_BACK_01: there is no connector with such name.
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_BACK_02: there is no connector with such name.
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Can't get the fire position connector FIRE_RUBKA: there is no connector with such name.
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Invalid connector name (POINT_GUN_ZA_BL): unit type = LHA_Tarawa, ws id=2, ln id=1, br id=1
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Invalid connector name (Rocket_Point_01): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=1
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Invalid connector name (Rocket_Point_02): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=2
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Invalid connector name (Rocket_Point_03): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=3
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Invalid connector name (Rocket_Point_04): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=4
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Invalid connector name (Rocket_Point_05): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=5
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Invalid connector name (Rocket_Point_06): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=6
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Invalid connector name (Rocket_Point_07): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=7
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Invalid connector name (Rocket_Point_08): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=8
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Invalid connector name (Rocket_Point_20): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=1
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Invalid connector name (Rocket_Point_21): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=2
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Invalid connector name (Rocket_Point_22): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=3
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Invalid connector name (Rocket_Point_23): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=4
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Invalid connector name (Rocket_Point_24): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=5
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Invalid connector name (Rocket_Point_25): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=6
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Invalid connector name (Rocket_Point_26): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=7
+2019-12-06 17:46:51.969 ERROR   WEAPONS: Invalid connector name (Rocket_Point_27): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=8
+2019-12-06 17:46:51.969 ERROR   wWeaponSystem: invalid connector CENTER_RADAR_9 for unit LHA_Tarawa
+2019-12-06 17:46:51.969 ERROR   wWeaponSystem: invalid connector CENTER_RADAR_10 for unit LHA_Tarawa
+2019-12-06 17:46:51.969 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'lha_tarawa'
+2019-12-06 17:46:51.969 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'lha_tarawa'
+2019-12-06 17:46:51.969 ERROR   woShip: Network: Carrier start positions number mismatch!!! Unit type:LHA_Tarawa
+2019-12-06 17:46:51.971 WARNING EFFECTS2: BowwaveEmitter: unknown parameter
+2019-12-06 17:46:51.971 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_02: there is no connector with such name.
+2019-12-06 17:46:51.972 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'cvn74'
+2019-12-06 17:46:51.972 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'cvn74'
+2019-12-06 17:46:51.972 ERROR   woShip: Network: Carrier start positions number mismatch!!! Unit type:Stennis
+2019-12-06 17:46:51.974 WARNING EFFECTS2: BowwaveEmitter: unknown parameter
+2019-12-06 17:46:52.302 WARNING FLIGHT: NO ATC COMM HELIPAD + EK14:127500000
+2019-12-06 17:46:52.302 WARNING FLIGHT: NO ATC COMM HELIPAD + EJ98:127500000
+2019-12-06 17:46:52.302 WARNING FLIGHT: NO ATC COMM HELIPAD + FJ69:127500000
+2019-12-06 17:46:52.302 WARNING FLIGHT: NO ATC COMM HELIPAD + GJ22:127500000
+2019-12-06 17:46:52.302 WARNING FLIGHT: NO ATC COMM HELIPAD + GJ38:127500000
+2019-12-06 17:46:52.302 WARNING FLIGHT: NO ATC COMM HELIPAD + LP31:127500000
+2019-12-06 17:46:52.302 WARNING FLIGHT: NO ATC COMM HELIPAD + MP24:127500000
+2019-12-06 17:46:52.302 WARNING FLIGHT: NO ATC COMM HELIPAD + MN34:127500000
+2019-12-06 17:46:52.302 WARNING FLIGHT: NO ATC COMM HELIPAD + MN19:127500000
+2019-12-06 17:46:52.302 WARNING FLIGHT: NO ATC COMM HELIPAD + LP65:127500000
+2019-12-06 17:46:52.302 WARNING FLIGHT: NO ATC COMM HELIPAD + LP17:127500000
+2019-12-06 17:46:52.302 WARNING FLIGHT: NO ATC COMM HELIPAD + FJ95:127500000
+2019-12-06 17:46:52.302 WARNING FLIGHT: NO ATC COMM HELIPAD + EK51:127500000
+2019-12-06 17:46:52.303 WARNING FLIGHT: NO ATC COMM HELIPAD + DK65:127500000
+2019-12-06 17:46:52.303 WARNING FLIGHT: NO ATC COMM HELIPAD + KP74:127500000
+2019-12-06 17:46:52.303 WARNING FLIGHT: NO ATC COMM HELIPAD + FJ03:127500000
+2019-12-06 17:46:52.303 WARNING FLIGHT: NO ATC COMM HELIPAD + EK20:127500000
+2019-12-06 17:46:52.303 WARNING FLIGHT: NO ATC COMM HELIPAD + MN12:127500000
+2019-12-06 17:46:52.303 WARNING FLIGHT: NO ATC COMM HELIPAD + FJ53:127500000
+2019-12-06 17:46:52.303 WARNING FLIGHT: NO ATC COMM HELIPAD + EJ34:127500000
+2019-12-06 17:46:52.303 WARNING FLIGHT: NO ATC COMM HELIPAD + EJ08:127500000
+2019-12-06 17:46:52.303 WARNING FLIGHT: NO ATC COMM HELIPAD + DK61:127500000
+2019-12-06 17:46:52.303 WARNING FLIGHT: NO ATC COMM HELIPAD + KN76:127500000
+2019-12-06 17:46:52.303 WARNING FLIGHT: NO ATC COMM HELIPAD + LN90:127500000
+2019-12-06 17:46:52.303 WARNING FLIGHT: NO ATC COMM HELIPAD + MM25:127500000
+2019-12-06 17:46:52.303 WARNING FLIGHT: NO ATC COMM HELIPAD + LM56:127500000
+2019-12-06 17:46:52.303 WARNING FLIGHT: NO ATC COMM HELIPAD + LN21:127500000
+2019-12-06 17:46:52.303 WARNING FLIGHT: NO ATC COMM HELIPAD + MM75:127500000
+2019-12-06 17:46:52.303 WARNING FLIGHT: NO ATC COMM HELIPAD + MM69:127500000
+2019-12-06 17:46:52.303 WARNING FLIGHT: NO ATC COMM HELIPAD + GH03:127500000
+2019-12-06 17:46:52.303 WARNING FLIGHT: NO ATC COMM HELIPAD + KN53:127500000
+2019-12-06 17:46:52.303 WARNING FLIGHT: NO ATC COMM HELIPAD + KN70:127500000
+2019-12-06 17:46:52.303 WARNING FLIGHT: NO ATC COMM HELIPAD + GH17:127500000
+2019-12-06 17:46:52.303 WARNING FLIGHT: NO ATC COMM HELIPAD + LM95:127500000
+2019-12-06 17:46:52.303 WARNING FLIGHT: NO ATC COMM HELIPAD + GG19:127500000
+2019-12-06 17:46:52.303 WARNING FLIGHT: NO ATC COMM HELIPAD + LN16:127500000
+2019-12-06 17:46:52.303 WARNING FLIGHT: NO ATC COMM HELIPAD + MN61:127500000
+2019-12-06 17:46:54.353 INFO    EDTERRAINGRAPHICS41: forestDistanceFactor has been changed to 0.300000. Update lod buffers.
+2019-12-06 17:46:54.353 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2019-12-06 17:46:54.353 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2019-12-06 17:47:04.767 INFO    TACVIEW.DLL: Tacview is not installed on the host
+2019-12-06 17:47:04.768 INFO    TACVIEW.DLL: Recording flight data in [D:\Documents\Tacview\Tacview-20191206-124704-DCS-PVP-Dynamic-Persistent_Air_Ground_War_V.1.4.1.zip.acmi]
+2019-12-06 17:47:04.768 INFO    TACVIEW.DLL: Applying playback delay of 10 minutes to prevent cheating
+2019-12-06 17:47:39.807 INFO    DX11BACKEND: Unloaded 18 mb of textures.
+2019-12-06 17:48:25.023 ERROR   EFFECTS: ODCSParticleSystem: trying to set parameter for emitter that doesn't exists in shellExplosion.lua
+2019-12-06 17:49:39.801 WARNING LOG: 88 duplicate message(s) skipped.
+2019-12-06 17:49:39.801 INFO    DX11BACKEND: Unloaded 333 mb of textures.
+2019-12-06 17:51:39.793 INFO    DX11BACKEND: Unloaded 0 mb of textures.
+2019-12-06 17:53:39.811 INFO    DX11BACKEND: Unloaded 504 mb of textures.
+2019-12-06 17:56:39.802 INFO    DX11BACKEND: Unloaded 38 mb of textures.
+2019-12-06 17:56:39.871 INFO    TACVIEW.DLL: During the last 600.0s an average of 0 units objects and 0 ballistic objects have been active per frame
+2019-12-06 17:56:39.871 INFO    TACVIEW.DLL: The average frame rate of 35.5fps would have been 35.5fps if the flight data recorder was disabled
+2019-12-06 17:56:39.871 INFO    TACVIEW.DLL: DCS World simulation is taking 99.9% of CPU
+2019-12-06 17:56:39.871 INFO    TACVIEW.DLL:  DCS GetWorldObjects is taking  0.0% of CPU
+2019-12-06 17:56:39.871 INFO    TACVIEW.DLL:     Tacview recorder is taking  0.1% of CPU
+2019-12-06 17:58:39.803 INFO    DX11BACKEND: Unloaded 160 mb of textures.
+2019-12-06 18:00:39.792 INFO    DX11BACKEND: Unloaded 86 mb of textures.
+2019-12-06 18:02:39.794 INFO    DX11BACKEND: Unloaded 0 mb of textures.
+2019-12-06 18:05:39.783 INFO    DX11BACKEND: Unloaded 1 mb of textures.
+2019-12-06 18:06:39.875 INFO    TACVIEW.DLL: During the last 600.0s an average of 0 units objects and 0 ballistic objects have been active per frame
+2019-12-06 18:06:39.875 INFO    TACVIEW.DLL: The average frame rate of 42.8fps would have been 42.9fps if the flight data recorder was disabled
+2019-12-06 18:06:39.875 INFO    TACVIEW.DLL: DCS World simulation is taking 99.9% of CPU
+2019-12-06 18:06:39.875 INFO    TACVIEW.DLL:  DCS GetWorldObjects is taking  0.0% of CPU
+2019-12-06 18:06:39.875 INFO    TACVIEW.DLL:     Tacview recorder is taking  0.1% of CPU
+2019-12-06 18:07:39.794 INFO    DX11BACKEND: Unloaded 107 mb of textures.
+2019-12-06 18:09:05.810 INFO    VOICECHAT: -- Call set coalition --
+2019-12-06 18:09:22.431 WARNING LOG: 1 duplicate message(s) skipped.
+2019-12-06 18:09:22.431 INFO    DCS: MissionSpawn:spawnLocalPlayer artillery_commander_blue_2,artillery_commander
+2019-12-06 18:09:22.569 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 0 5 squares
+2019-12-06 18:09:22.569 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 1 8 squares
+2019-12-06 18:09:22.569 INFO    EDTERRAINGRAPHICS41: surface5 gc() 1.116400 ms
+2019-12-06 18:09:22.569 INFO    EDTERRAINGRAPHICS41: forestDistanceFactor has been changed to 1.000000. Update lod buffers.
+2019-12-06 18:09:22.570 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2019-12-06 18:09:22.570 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2019-12-06 18:09:39.811 INFO    DX11BACKEND: Unloaded 0 mb of textures.
+2019-12-06 18:11:39.791 INFO    DX11BACKEND: Unloaded 312 mb of textures.
+2019-12-06 18:12:24.832 ERROR   SOUND: can't load wave: "effects\aircrafts\engines\f14_rear_distant_02"
+2019-12-06 18:13:39.776 INFO    DX11BACKEND: Unloaded 200 mb of textures.
+2019-12-06 18:15:39.778 INFO    DX11BACKEND: Unloaded 519 mb of textures.
+2019-12-06 18:16:39.916 INFO    TACVIEW.DLL: During the last 600.0s an average of 0 units objects and 0 ballistic objects have been active per frame
+2019-12-06 18:16:39.916 INFO    TACVIEW.DLL: The average frame rate of 21.4fps would have been 21.4fps if the flight data recorder was disabled
+2019-12-06 18:16:39.916 INFO    TACVIEW.DLL: DCS World simulation is taking 99.9% of CPU
+2019-12-06 18:16:39.916 INFO    TACVIEW.DLL:  DCS GetWorldObjects is taking  0.0% of CPU
+2019-12-06 18:16:39.916 INFO    TACVIEW.DLL:     Tacview recorder is taking  0.1% of CPU
+2019-12-06 18:23:39.775 INFO    DX11BACKEND: Unloaded 0 mb of textures.
+2019-12-06 18:24:21.606 ERROR   EFFECTS: ODCSParticleSystem: trying to set parameter for emitter that doesn't exists in shellExplosion.lua
+2019-12-06 18:24:31.602 WARNING LOG: 1 duplicate message(s) skipped.
+2019-12-06 18:24:31.602 INFO    Dispatcher: Stop
+2019-12-06 18:24:31.616 INFO    TACVIEW.DLL: End of flight data recording
+2019-12-06 18:24:39.337 INFO    Config: netview stopped
+2019-12-06 18:24:39.521 INFO    TERRAIN: lSystem::CleanScenes()
+2019-12-06 18:24:39.522 INFO    NET: messages tracked: 2189964
+2019-12-06 18:24:39.527 INFO    VISUALIZER: StopSimulation
+2019-12-06 18:24:39.528 INFO    VISUALIZER: Stopped collection of statistic.
+2019-12-06 18:24:39.536 INFO    EDCORE: (dDispatcher)enterToState_:3
