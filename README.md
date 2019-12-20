@@ -20,8 +20,7 @@ Note: Every DCS patch this has to be reaccomplished
   --require = nil
   --loadlib = nil
 ``` 
- 2. From your install folder again, open `C:\Program Files\Eagle Dynamics\DCS World OpenBeta\MissionEditor\modules\me_route.lua`
- 	A.Starting on Line 139
+ 2. From your install folder again, open `C:\Program Files\Eagle Dynamics\DCS World OpenBeta\MissionEditor\modules\me_route.lua` starting on Line 139
 	
    ```   
    plane_one_point = {
@@ -46,8 +45,7 @@ Note: Every DCS patch this has to be reaccomplished
  ```
     
 
-3. From your install folder, open 'C:\Program Files\Eagle Dynamics\DCS World OpenBeta\MissionEditor\MissionEditor.lua'
-	A. Uncomment Line 6 (comments in lua are --)
+3. From your install folder, open 'C:\Program Files\Eagle Dynamics\DCS World OpenBeta\MissionEditor\MissionEditor.lua' uncomment Line 6 (comments in lua are --)
 	
 ```
 --test_addNeutralCoalition = true
