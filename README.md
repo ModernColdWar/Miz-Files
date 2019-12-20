@@ -23,7 +23,7 @@ Note: Every DCS patch this has to be reaccomplished
  2. From your install folder again, open `C:\Program Files\Eagle Dynamics\DCS World OpenBeta\MissionEditor\modules\me_route.lua`
  	A.Starting on Line 139
 
-   '''
+   ```
    plane_one_point = {
 		actions.turningPoint, 
 		actions.flyOverPoint,
@@ -43,10 +43,10 @@ Note: Every DCS patch this has to be reaccomplished
 		actions.takeoffGround,	--added 
 		actions.takeoffGroundHot, --added
     },
-    '''
+    ```
     
-3. From your install folder, open 'C:\Program Files\Eagle Dynamics\DCS World OpenBeta\MissionEditor\MissionEditor.lua'
+3. From your install folder, open 'C:\Program Files\Eagle Dynamics\DCS World OpenBeta\MissionEditor\MissionEditor.lua'<br>
 	A. Uncomment Line 6 (comments in lua are --)
-	'''--test_addNeutralCoalition = true'''
+	```--test_addNeutralCoalition = true```
 
 	
