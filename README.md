@@ -23,7 +23,7 @@ Note: Every DCS patch this has to be reaccomplished
  2. From your install folder again, open `C:\Program Files\Eagle Dynamics\DCS World OpenBeta\MissionEditor\modules\me_route.lua` starting on Line 139
 	
    ```   
-   plane_one_point = {
+	plane_one_point = {
 		actions.turningPoint, 
 		actions.flyOverPoint,
 		actions.takeoffRunway, 
@@ -32,8 +32,8 @@ Note: Every DCS patch this has to be reaccomplished
 		--actions.landing,
 		actions.takeoffGround,	--added 
 		actions.takeoffGroundHot, --added
-    },
-    plane_first_point = {
+	},
+	plane_first_point = {
 		actions.turningPoint,
 		actions.flyOverPoint,
 		actions.takeoffRunway, 
@@ -41,7 +41,7 @@ Note: Every DCS patch this has to be reaccomplished
 		actions.takeoffParkingHot, 
 		actions.takeoffGround,	--added 
 		actions.takeoffGroundHot, --added
-    },
+	},
  ```
     
 
