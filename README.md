@@ -47,10 +47,11 @@ Note: Every DCS patch this has to be reaccomplished
     
 
 3. From your install folder, open 'C:\Program Files\Eagle Dynamics\DCS World OpenBeta\MissionEditor\MissionEditor.lua'
-	
 	A. Uncomment Line 6 (comments in lua are --)
 	
-	'--test_addNeutralCoalition = true'
+```
+--test_addNeutralCoalition = true
+```
 
 
 	
