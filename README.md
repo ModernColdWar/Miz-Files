@@ -50,8 +50,7 @@ Note: Every DCS patch this has to be reaccomplished
 	
 	A. Uncomment Line 6 (comments in lua are --)
 	
-'''
-	--test_addNeutralCoalition = true
-'''
+	'--test_addNeutralCoalition = true'
+
 
 	
