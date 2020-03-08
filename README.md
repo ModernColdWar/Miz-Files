@@ -51,5 +51,26 @@ Note: Every DCS patch this has to be reaccomplished
 --test_addNeutralCoalition = true
 ```
 
+## Required changes to the MIZ file after edits have been made:
+
+1. options file (no extension for this file) inside MIZ e.g. `RSR_Dynamic_PvP_Spring_AM_Clear_v4.2.3\options`
+This prevents players viewing opposing team units when changing slots.
+
+```
+options = 
+{
+    ["playerName"] = "mad rabbit",
+    ["miscellaneous"] = 
+    {
+        ["f5_nearest_ac"] = false,
+        ["f11_free_camera"] = false,
+
+    }, -- end of ["miscellaneous"]
+    ["difficulty"] = 
+    {
+        ["spectatorExternalViews"] = false,
+        ["externalViews"] = false,
+    }, -- end of ["difficulty"]
+```
 
 	
