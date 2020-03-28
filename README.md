@@ -91,11 +91,17 @@ e.g. "Mozdok Blue Heavy Armor #002", "Mozdok Blue Air Defense #010", etc.
 
 8. All airbases set to neutral coalition
 
+9. Crate 'PickUp' Trigger Zones for all airbases and FARPs to allow loading of troops
+	- e.g. 'FJ03 PickUp'
+	- place over centre of runway for airbases and centre of FARP helipad object for FARPs
+	- loading of troops only allowed within radius of Trigger Zone
+	- do NOT assign a color to this trigger, as this will create smoke in these zones
+
 ## (C) Required changes to the MIZ file after edits have been made:
 
 1. options file (no extension for this file) inside MIZ e.g. `RSR_Dynamic_PvP_Spring_AM_Clear_v4.2.3\options`
-This prevents players viewing opposing team units when changing slots.
-
+	- These prevents players viewing opposing team units when changing slots.
+	- "ground_aim_helper" prevent aim assist when operating some vehicles in Combined Arms
 ```
 options = 
 {
@@ -111,6 +117,10 @@ options =
         ["spectatorExternalViews"] = false,
         ["externalViews"] = false,
     }, -- end of ["difficulty"]
+	["CA"] =
+	{
+		["ground_aim_helper"] = false,
+	}
 ```
 
 	
