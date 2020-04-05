@@ -88,12 +88,21 @@ e.g. "Mozdok Blue Heavy Armor #002", "Mozdok Blue Air Defense #010", etc.
 	
 7. All 'FARP helipad' objects should be assigned to neutral country e.g. "Greece"
 	- 'ctld.neutralCountry' in CTLD_config.lua set to neutral country e.g. "Greece"
+	- NO LONGER POSSIBLE IN DCS 2.5.6!
+		- Selecting FARP helipads will automatically revert the country to USA and thus coalition to blue!
+			- Settings dialog will also be garbled due to incompatibility of mission editor with neutral coaltion as experimental feature
+			- Name of FARP helipad, which is cruicial for most of RSR baseOwnership, may also revert to "Ammo #001"
+		- New FARP helipads should be:
+		a) Placed under unused red/blue country e.g. Yugoslavia
+		b) Unpack mission outside of DCS
+		c) Copy details of FARP helipad in 'mission' file from unsed red/blue country to neutral coalition country e.g. Yugoslavia to Greece
 
 8. All airbases set to neutral coalition
 
 9. Crate 'PickUp' Trigger Zones for all airbases and FARPs to allow loading of troops
 	- e.g. 'FJ03 PickUp'
 	- place over centre of runway for airbases and centre of FARP helipad object for FARPs
+	- radius of 180m ideal for FARP helipads
 	- loading of troops only allowed within radius of Trigger Zone
 	- do NOT assign a color to this trigger, as this will create smoke in these zones
 
@@ -105,7 +114,6 @@ e.g. "Mozdok Blue Heavy Armor #002", "Mozdok Blue Air Defense #010", etc.
 ```
 options = 
 {
-    ["playerName"] = "mad rabbit",
     ["miscellaneous"] = 
     {
         ["f5_nearest_ac"] = false,
@@ -123,4 +131,4 @@ options =
 	}
 ```
 
-	
+2. Change any red/blue country assigned FARP helipads to a neutral country as described above in (B7)	
