@@ -10,22 +10,22 @@ NOTE: When editing the mission file be sure to configure the me_route.lua file C
 
 Starting on Line 139
 
-    plane_one_point = {
-		actions.turningPoint, 
-		actions.flyOverPoint,
-		actions.takeoffRunway, 
-		actions.takeoffParking,
-		--actions.takeoffParkingHot, 
-		--actions.landing,
-		actions.takeoffGround,	--added 
-		actions.takeoffGroundHot, --added
-    },
-    plane_first_point = {
-		actions.turningPoint,
-		actions.flyOverPoint,
-		actions.takeoffRunway, 
-		actions.takeoffParking, 
-		actions.takeoffParkingHot, 
-		actions.takeoffGround,	--added 
-		actions.takeoffGroundHot, --added
-    },
+		plane_one_point = {
+			actions.turningPoint, 
+			actions.flyOverPoint,
+			actions.takeoffRunway, 
+			actions.takeoffParking,
+			--actions.takeoffParkingHot, 
+			--actions.landing,
+			actions.takeoffGround,	--added 
+			actions.takeoffGroundHot, --added
+	},
+		plane_first_point = {
+			actions.turningPoint,
+			actions.flyOverPoint,
+			actions.takeoffRunway, 
+			actions.takeoffParking, 
+			actions.takeoffParkingHot, 
+			actions.takeoffGround,	--added 
+			actions.takeoffGroundHot, --added
+	},
