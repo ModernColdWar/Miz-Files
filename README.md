@@ -8,24 +8,23 @@ These missions require a copy of the [RedStormRising repo](https://github.com/Mo
 
 NOTE: When editing the mission file be sure to configure the me_route.lua file C:\Program Files\Eagle Dynamics\DCS World OpenBeta\MissionEditor\modules\me_route.lua. 
 
-Starting on Line 139
-
-		plane_one_point = {
-			actions.turningPoint, 
-			actions.flyOverPoint,
-			actions.takeoffRunway, 
-			actions.takeoffParking,
-			--actions.takeoffParkingHot, 
-			--actions.landing,
-			actions.takeoffGround,	--added 
-			actions.takeoffGroundHot, --added
+Starting on Line 144
+	plane_one_point = {
+		actions.turningPoint, 
+		actions.flyOverPoint,
+		actions.takeoffRunway, 
+		actions.takeoffParking,
+		--actions.takeoffParkingHot, 
+		--actions.landing,
+		actions.takeoffGround,	--added 
+		actions.takeoffGroundHot, --added
 	},
-		plane_first_point = {
-			actions.turningPoint,
-			actions.flyOverPoint,
-			actions.takeoffRunway, 
-			actions.takeoffParking, 
-			actions.takeoffParkingHot, 
-			actions.takeoffGround,	--added 
-			actions.takeoffGroundHot, --added
+	plane_first_point = {
+		actions.turningPoint,
+		actions.flyOverPoint,
+		actions.takeoffRunway, 
+		actions.takeoffParking, 
+		actions.takeoffParkingHot, 
+		actions.takeoffGround,	--added 
+		actions.takeoffGroundHot, --added
 	},
