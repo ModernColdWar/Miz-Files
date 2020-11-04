@@ -45,7 +45,7 @@ Note: Every DCS patch this has to be reaccomplished
  ```
     
 
-3. This lets neutral coalitions be added to the mission. From your install folder, open 'C:\Program Files\Eagle Dynamics\DCS World OpenBeta\MissionEditor\MissionEditor.lua' uncomment Line 6 (comments in lua are --)
+3. This lets neutral coalitions be added to the mission. From your install folder, open 'C:\Program Files\Eagle Dynamics\DCS World OpenBeta\MissionEditor\MissionEditor.lua' <b>uncomment</b> Line 6 (comments in lua are --)
 	
 ```
 --test_addNeutralCoalition = true
