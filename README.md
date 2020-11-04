@@ -11,7 +11,7 @@ A persistent PvP mission for DCS world.
 
 Note: Every DCS patch this has to be reaccomplished
 
- 1. Edit your files for mission editing, from your install folder (not saved games), open `Scripts/MissionScripting.lua`
+ 1. Edit your files for mission editing. The below changes make your DCS able to load and save lua files. To enable this you will need to access the DCS root, so from your install folder (not saved games), open `Scripts/MissionScripting.lua`
  	A. Comment out all the lines in the do block below the sanitization function with `-\-`.  This allows the LUA engine access to 		the file system. It should look similar to:
 ```lua
   --sanitizeModule('os')
@@ -20,7 +20,7 @@ Note: Every DCS patch this has to be reaccomplished
   --require = nil
   --loadlib = nil
 ``` 
- 2. From your install folder again, open `C:\Program Files\Eagle Dynamics\DCS World OpenBeta\MissionEditor\modules\me_route.lua` starting on Line 139
+ 2. This make planes capable from starting from any spot on the ground rather than a fixed parking spot. This doesn't work for FC3 planes. From your install folder again, open `C:\Program Files\Eagle Dynamics\DCS World OpenBeta\MissionEditor\modules\me_route.lua` starting on Line 139
 	
    ```   
 	plane_one_point = {
@@ -45,12 +45,13 @@ Note: Every DCS patch this has to be reaccomplished
  ```
     
 
-3. From your install folder, open 'C:\Program Files\Eagle Dynamics\DCS World OpenBeta\MissionEditor\MissionEditor.lua' uncomment Line 6 (comments in lua are --)
+3. This lets neutral coalitions be added to the mission. From your install folder, open 'C:\Program Files\Eagle Dynamics\DCS World OpenBeta\MissionEditor\MissionEditor.lua' uncomment Line 6 (comments in lua are --)
 	
 ```
 --test_addNeutralCoalition = true
 ```
 
+#Below is only applicaple to the Cuacasus Server.
 ## (B) Required changes to the MIZ via Mission Editor:
 
 1. Group and pilot/unit names for all airbase and FARP slots must be prefixed with their originating base:
