@@ -51,7 +51,7 @@ Note: Every DCS patch this has to be reaccomplished
 --test_addNeutralCoalition = true
 ```
 
-#Below is only applicaple to the Cuacasus Server.
+# Below is only applicaple to the Cuacasus Server.
 ## (B) Required changes to the MIZ via Mission Editor:
 
 1. Group and pilot/unit names for all airbase and FARP slots must be prefixed with their originating base:
