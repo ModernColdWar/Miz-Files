@@ -2,7 +2,7 @@
 This repository contains historic versions of the MIZ file used by the server. Inside the MIZ, there are triggers to load the seperate <a href="https://github.com/ModernColdWar/RSR-Syria">LUA files</a> which load on mission start.
 
 ## <a href="https://github.com/ModernColdWar/RSR-Syria">LUA files</a>
-### <a href="https://github.com/ModernColdWar/RSR-Syria/blob/main/CSAR.lua">AWACS-Tankers.lua</a>
+### <a href="https://github.com/ModernColdWar/RSR-Syria/blob/main/AWACS-Tankers.lua">AWACS-Tankers.lua</a>
 ### <a href="https://github.com/ModernColdWar/RSR-Syria/blob/main/CSAR.lua">CSAR.lua</a>
 ### <a href="https://github.com/ModernColdWar/RSR-Syria/blob/main/Capture_zones.lua">Capture_Zones.lua.lua</a>
 ### <a href="https://github.com/ModernColdWar/RSR-Syria/blob/main/EWRS.lua">EWRS.lua</a>
