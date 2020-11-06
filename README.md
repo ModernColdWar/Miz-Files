@@ -1,5 +1,18 @@
 # Red Storm Rising
-This repository contains historic versions of the MIZ file used by the server.
+This repository contains historic versions of the MIZ file used by the server. Inside the MIZ, there are triggers to load the seperate <a href="https://github.com/ModernColdWar/RSR-Syria">LUA files</a> which load on mission start.
+
+## <a href="https://github.com/ModernColdWar/RSR-Syria">LUA files</a>
+### <a href="https://github.com/ModernColdWar/RSR-Syria/blob/main/CSAR.lua">AWACS-Tankers.lua</a>
+### <a href="https://github.com/ModernColdWar/RSR-Syria/blob/main/CSAR.lua">CSAR.lua</a>
+### <a href="https://github.com/ModernColdWar/RSR-Syria/blob/main/Capture_zones.lua">Capture_Zones.lua.lua</a>
+### <a href="https://github.com/ModernColdWar/RSR-Syria/blob/main/EWRS.lua">EWRS.lua</a>
+### <a href="https://github.com/ModernColdWar/RSR-Syria/blob/main/JTAC-Designate.lua">JTAC-Designate.lua</a>
+### <a href="https://github.com/ModernColdWar/RSR-Syria/blob/main/Moose.lua">Moose.lua</a>
+### <a href="https://github.com/ModernColdWar/RSR-Syria/blob/main/SGS_RSR.lua">SGS_RSR.lua</a>
+### <a href="https://github.com/ModernColdWar/RSR-Syria/blob/main/UAV-Recon.lua">UAV-Recon.lua</a>
+### <a href="https://github.com/ModernColdWar/RSR-Syria/blob/main/WeaponManager.lua">WeaponManager.lua</a>
+### <a href="https://github.com/ModernColdWar/RSR-Syria/blob/main/mist_4_4_90.lua">mist_4_4_90.lua</a>
+### <a href="https://github.com/ModernColdWar/RSR-Syria/blob/main/warehouseResupply.lua">warehouseResupply.lua</a>
 
 The _utils_ directory contains helpful scripts for bulk editing missions.
 
