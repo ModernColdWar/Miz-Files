@@ -65,7 +65,7 @@ Note: Every DCS patch this has to be reaccomplished
 ```
 --test_addNeutralCoalition = true
 ```
-4. This will allow specific units to be on Russia or any red country. From your install folder, open 'C:Program Files\Eagle Dynamics\DCS World\Scripts\database\db_countries.lua'. In this database you can add/remove any unit to any country this only has to be done on who ever is editing the miz. Starting at lin 1032:
+4. ***Not Required Anymore***This will allow specific units to be on Russia or any red country. From your install folder, open 'C:Program Files\Eagle Dynamics\DCS World\Scripts\database\db_countries.lua'. In this database you can add/remove any unit to any country this only has to be done on who ever is editing the miz. Starting at lin 1032:
 
 ```
 ---Added
