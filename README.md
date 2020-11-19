@@ -38,6 +38,7 @@ Note: Every DCS patch this has to be reaccomplished
  2. This make planes capable from starting from any spot on the ground rather than a fixed parking spot. This doesn't work for FC3 planes. From your install folder again, open `C:\Program Files\Eagle Dynamics\DCS World OpenBeta\MissionEditor\modules\me_route.lua` starting on Line 139
 	
    ```   
+--
 	plane_one_point = {
 		actions.turningPoint, 
 		actions.flyOverPoint,
@@ -56,7 +57,7 @@ Note: Every DCS patch this has to be reaccomplished
 		actions.takeoffParkingHot, 
 		actions.takeoffGround,	--added 
 		actions.takeoffGroundHot, --added
-	},
+	},	
  ```
     
 
