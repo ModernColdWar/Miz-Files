@@ -1,14 +1,13 @@
 # Red Storm Rising
 This repository contains historic versions of the MIZ file used by the server. Inside the MIZ, there are triggers to load the seperate <a href="https://github.com/ModernColdWar/RSR-Syria">LUA files</a> which load on mission start.
 
-## <a href="https://github.com/ModernColdWar/RSR-Syria">LUA files</a>
-The RSR-Syria repository contains all the lua files required to run the mission. Once tested, submited and approved they are sent to the server and loaded. 
+## <a href="https://github.com/ModernColdWar/RedStormRising">LUA files</a>
+The RSR/RedStormRising repository contains all the lua files required to run the mission. Once tested, submited and approved they are sent to the server and loaded. All the scripts are loaded through the RSR.lua 
 ### <a href="https://github.com/ModernColdWar/RSR-Syria/blob/main/AWACS-Tankers.lua">AWACS-Tankers.lua</a>
 The <a href="https://github.com/ModernColdWar/RSR-Syria/blob/main/AWACS-Tankers.lua">AWACS-Tankers.lua</a> Contains moose snippets that generate an F10 menu to allow aircraft to call in AWACS and Tankers into the mission. 
 ### <a href="https://github.com/ModernColdWar/RSR-Syria/blob/main/CSAR.lua">CSAR.lua</a>
 The <a href="https://github.com/ModernColdWar/RSR-Syria/blob/main/CSAR.lua">CSAR.lua</a> script allows for downed pilots to be recovered, and thier life returned. We also use the CSAR script to manage pilots lifes on a per restart basis.
 ### <a href="https://github.com/ModernColdWar/RSR-Syria/blob/main/Capture_zones.lua">Capture_Zones.lua</a>
-The <a href="https://github.com/ModernColdWar/RSR-Syria/blob/main/Capture_zones.lua">Capture_Zones.lua</a> is a <a href="https://flightcontrol-master.github.io/MOOSE_DOCS/Documentation/Functional.ZoneCaptureCoalition.html">moose function</a> and is used to manage the base capture mechanics. It defines a 3km radius around the zone placed in the mission editor. It then monitors this zone for updates, if a unit is in the zone, and generates a defended/attacked/capture/ status. It is seperate from the built in DCS capture mechanic and not tied to the logistics. We have tied in Cribobs simple slot blocker into the capture_zone lua, the flags for client spawns is wrapped into the `OnEnterGuarded` FSM.
 ### <a href="https://github.com/ModernColdWar/RSR-Syria/blob/main/EWRS.lua">EWRS.lua</a>
 ### <a href="https://github.com/ModernColdWar/RSR-Syria/blob/main/JTAC-Designate.lua">JTAC-Designate.lua</a>
 ### <a href="https://github.com/ModernColdWar/RSR-Syria/blob/main/Moose.lua">Moose.lua</a>
